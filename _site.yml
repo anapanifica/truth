@@ -1,9 +1,22 @@
-name: "my-website"
+name: "truth"
 navbar:
-  title: "My Website"
+  title: "Truth-words"
   left:
     - text: "Home"
       href: index.html
-    - text: "About"
-      href: about.html
+    - text: "Languages"
+      href: languages.html
+    - text: "Functions"
+      href: functions.html
+    - text: "Summary and visualizations"
+      href: summary.html
+  right:
+    - text: "Full data (.csv)"
+      href: data.csv
 output_dir: docs
+output:
+  html_document:
+    theme: lumen
+    css: style.css
+    include:
+      after_body: footer.html

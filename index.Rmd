@@ -1,9 +1,114 @@
 ---
-title: "My Website"
+output:
+  html_document:
+    includes:
+      in_header: hero-image.html
+      after_body: footer.html
 ---
 
-Hello, Website!
+<style type="text/css">
+.main-container {
+    max-width: 1170px;
+    
+}
+</style>
 
-For more information about simple R Markdown websites, please read the documentation at https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html.
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 
-Please also note that simple R Markdown sites are _not_ based on **blogdown**. They are probably good for websites with only a few Rmd documents. For larger-scale and more sophisticated websites (such as blogs), you may want to use **blogdown** instead: https://github.com/rstudio/blogdown.
+This website presents a typological database of the extended functions of 'truth'-words.
+
+
+---
+
+### Questionnaire
+
+The database was collected using the following questionnaire.
+
+```{r, echo=FALSE}
+library(knitr)
+column_description <- tibble::tribble(
+  ~tag, ~description, ~stimulus,
+   "`truth_pred`", "", "It’s the truth. [It is not made up, it is how things are]",
+  "`truth_n`",  "", "He always tells the truth.",
+  "`truth_adj`",  "", "It is a true story [I’m not lying]",
+  "`right`",  "", "Is this the right answer? [Or is it the wrong answer?]",
+  "`genuine`",  "", "Are these documents real? [Or are they fakes?]",
+  "`real`",  "", "She thinks Narnia is a real country. [It’s actually made up]",
+  "`CL`",  "", "He is a true fighter [He has all the qualities characteristic of a fighter]",
+  "`int_adj`",  "", "She is a very beautiful woman",
+  "`int_adv`",  "", "I’m very happy that he came",
+  "`really_pred`",  "", "I am really writing a book [even though they said I couldn’t]",
+  "`int_pred`",  "", "I really want to go [I can’t stand it here]",
+  "`select`",  "", "The real problem is that we don’t have water [that’s what we have to focus on]",
+  "`tag`",  "", "The weather is great today, right? ",
+  "`affirm`",  "", "[The weather is great today, right?] Yes, it is.",
+  "`conc_pred1`",  "", "He is a good person, although/admittedly (but the truth is) he brags a lot.",
+  "`conc_pred2`",  "", "Although he is young, he is a skilled doctor. (He is indeed young, but he is a skilled doctor)",
+  "`conc_adj`",  "", "We were at a good, although expensive, restaurant yesterday.",
+  "`conc_adv`",  "", "The buses run, although rarely.",
+  "`subj`",  "", "Frankly speaking (to tell the truth), I don’t like this idea."
+  )
+kable(column_description)
+```
+
+---
+
+### Languages
+
+The sample includes 50 languages spoken in Eurasia.
+```{r, include=FALSE, echo=FALSE}
+library(tidyverse)
+library(lingtypology)
+df <- read.csv("data.csv", na.strings=c("","NA"))
+```
+
+```{r, echo=FALSE, out.width = '100%'}
+df%>%
+  select("language_name", "family") -> lngs
+lngs <-unique(lngs)
+  
+map.feature(languages = lngs$language_name,
+            features = lngs$family,
+            label = lngs$language
+            )
+```
+
+'Truth'-words analyzed in each of the languages are listed in the table below.
+
+```{r echo = FALSE, results = 'asis', message=FALSE, warning=FALSE}
+library(tidyverse)
+library(readr)
+library(DT)
+
+df <- read.csv("data.csv", na.strings=c("","NA"))
+df %>%
+  filter(df$truth_word == "yes") %>%
+  select("language_name", "iso", "family", "consultant", "word", "translation") -> df
+
+df <- unique(df)
+
+
+datatable(
+  data = df,
+  filter = "top")
+
+```
+
+
+
+
+---
+
+### How to cite
+
+If you use this database in your research, please cite as follows:
+
+```{}
+Bandarenko, Alice, Anastasia Panova & Anna Sjöberg. 2024. Extended functions of 'truth'-words. A typological database. Stockholm: Stockholm University.
+```
+
+
+
+---

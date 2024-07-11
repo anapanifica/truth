@@ -1,0 +1,49 @@
+---
+title: "Summary"
+---
+
+
+<style type="text/css">
+.main-container {
+    max-width: 1170px;
+    
+}
+</style>
+
+
+
+```{r, include=FALSE, echo=FALSE}
+library(tidyverse)
+library(lingtypology)
+library(readr)
+library(DT)
+
+df <- read.csv("data.csv", na.strings=c("","NA"))
+df %>%
+  filter(df$truth_word == "yes") %>%
+  select(-"id_number", -"researcher", -"iso", -"family", -"consultant", -"truth_word", -"word_group") %>%
+  select(-contains("_comment"))-> df
+
+
+
+df %>%
+  mutate(across(.cols = c(4:ncol(df)), .fns = function(x) ifelse(!is.na(x), "+", ""))) -> df
+
+```
+
+
+
+
+
+```{r echo = FALSE, results = 'asis', message=FALSE, warning=FALSE}
+datatable(
+  data = df,
+  filter = "top",
+  extensions = 'FixedColumns',
+  options = list(fixedColumns = list(leftColumns = 4), scrollX = TRUE, dom = 'Bfrtip',
+                 columnDefs = list(list(className = 'dt-center', targets = "_all")))
+  
+)
+
+```
+

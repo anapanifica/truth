@@ -1,0 +1,45 @@
+---
+title: "Functions"
+output:
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float: true
+---
+
+
+```{r, include=FALSE, echo=FALSE}
+library(tidyverse)
+library(lingtypology)
+df <- read.csv("data.csv", na.strings=c("","NA"))
+df %>%
+  filter(df$truth_word == "yes") %>%
+  select(-"id_number") %>%
+  select(-contains("_comment"))-> df
+
+#renumerate indexes after filtering for truth-words (otherwise the loop below doesn't work)
+df <- tibble::rowid_to_column(df, "id_number") 
+
+```
+
+
+```{r, echo=FALSE, results='asis'}
+for (c in 11:ncol(df)) { 
+  
+  cat('\n\n## ', colnames(df)[c], '\n',
+      sep="")
+
+  for (i in 1:nrow(df)) {
+    language <- as.character(df$language_name[df$id_number == i])
+    word <- as.character(df$word[df$id_number == i])
+    translation <- as.character(df$translation[df$id_number == i])
+    if (!is.na(df[i, c])) {
+      ex <- unlist(strsplit(df[i, c], split = "\n"))
+      cat('\n \n#### *', word, '* \'', translation, '\' (', language, ')' , '\n \n (@) ', ex[1],'  \n   ', ex[2], sep = "")
+    }
+  }
+  cat('\n \n --- \n \n')
+}
+```
+
+

@@ -1,0 +1,136 @@
+id_number,researcher,language_name,iso,family,consultant,truth_word,word_group,word,translation,truth_pred,truth_pred_comment,truth_n,truth_n_comment,truth_adj,truth_adj_comment,right,right_comment,genuine,genuine_comment,real,real_comment,CL,CL_comment,int_adj,int_adj_comment,int_adv,int_adv_comment,really_pred,really_pred_comment,int_pred,int_pred_comment,select,select_comment,tag,tag_comment,affirm,affirm_comment,conc_pred1,conc_pred1_comment,conc_pred2,conc_pred2_comment,conc_adj,conc_adj_comment,conc_adv,conc_adv_comment,subj,subj_comment
+1,Nastia,Dutch,nld,Indo-European,Samira Verhees,yes,"waarheid, waargebeurd",waarheid,truth,"Het is de waarheid.
+It’s the truth.",,"Hij vertelt altijd de waarheid.
+He always tells the truth.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2,Nastia,Dutch,nld,Indo-European,Samira Verhees,yes,"waarheid, waargebeurd",waargebeurd,true,,,,,"Het is een waargebeurd verhaal.
+It is a true story ","Alternative: Het is echt gebeurd 'it really happened'.
+Comment: The first option is the most literal and often used to advertize books or series that are based on a true story. In a regular conversation, I would probably use the second option (which translates as ”it really happened”) if I wanted to emphasize that what I’m telling is a true story.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3,Nastia,Dutch,nld,Indo-European,Samira Verhees,no,goede,goede,right,,,,,,,"Is dit het goede antwoord?
+Is this the right answer?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+4,Nastia,Dutch,nld,Indo-European,Samira Verhees,no,echt,echt,real,,,,,,,,,"Zijn deze documenten echt?
+Are these documents real? ",,"Zij denkt dat Narnia een echt land is
+She thinks Narnia is a real country",,"Hij is een echte vechter
+He is a true fighter ",,,,,,"Ik ben echt een boek aan het schrijven.
+I am really writing a book",Comment: I would use [this option] if it contradicts what others expected.,"Ik wil echt weg.
+I really want to go ",,"Het echte probleem is dat we geen water hebben.
+The real problem is that we don’t have water.",,,,,,,,,,,,,,,
+5,Nastia,Dutch,nld,Indo-European,Samira Verhees,no,hele,hele,very,,,,,,,,,,,,,,,"Zij is een hele mooie vrouw.
+She is a very beautiful woman",,"Ik ben heel blij dat hij is gekomen
+I’m very happy that he came",,,,,,,,,,,,,,,,,,,,,
+6,Nastia,Dutch,nld,Indo-European,Samira Verhees,no,daadwerkelijk,daadwerkelijk,actually,,,,,,,,,,,,,,,,,,,"Ik ben daadwerkelijk een boek aan het schrijven.
+I am really writing a book ",Comment: [I would use this option] if I’m also a bit surprised myself that I’m actually doing it.,,,,,,,,,,,,,,,,,,
+7,Nastia,Dutch,nld,Indo-European,Samira Verhees,no,toch,toch,nevertheless,,,,,,,,,,,,,,,,,,,,,,,,,"Het weer is fantastisch vandaag, toch?
+The weather is great today, right? ",,,,,,,,,,,,,
+8,Nastia,Dutch,nld,Indo-European,Samira Verhees,no,inderdaad,inderdaad,indeed,,,,,,,,,,,,,,,,,,,,,,,,,,,"[Het weer is fantastisch vandaag, toch?] Ja, inderdaad.
+[The weather is great today, right?] Yes, it is",,,,,,,,,,,
+9,Nastia,Dutch,nld,Indo-European,Samira Verhees,no,maar,maar,but,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Hij is een goed mens, maar hij schept wel erg op.
+He is a good person, although/admittedly (but the truth is) he brags a lot.",,"Hij is wel jong, maar hij is een hele goede dokter.
+Although he is young, he is a skilled doctor. ",,"We waren gisteren bij een goed maar duur restaurant.
+We were at a good, although expensive, restaurant yesterday",,"De bussen rijden wel, maar niet vaak.
+The buses run, although rarely.",,,
+10,Nastia,Dutch,nld,Indo-European,Samira Verhees,no,eerlijk,eerlijk,honestly,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Eerlijk gezegd vind ik dit geen goed iee.
+Frankly speaking (to tell the truth), I don’t like this idea.",
+11,Alice,Bulgarian,bul,Indo-European,Ljuba Veselinova,yes,"истина, истинска, наистина",истина,truth,"Това е истината.
+It's truth.",,"Той винаги казва истината
+He always tells the truth.",,,,,,,,,,,,,,,,,,,,,,,,,,"Той е добър човек, но истината е че много изневерява на жена си
+He is a good person, although/admittedly (but the truth is) he is always late",(ok with stronger contrast),,,,,,,"Ако трябва да ти кажа истината, тази идея не ми харесва
+To tell you the truth, I do not like this idea","(not a great translation, not first choice)"
+12,Alice,Bulgarian,bul,Indo-European,Ljuba Veselinova,yes,"истина, истинска, наистина",истинска,"true, real",,,,,"Това е истинска история.
+It is a true story ","Closest possible translation, but not the best formulated for the message it conveys
+Alternative: Това се е случило наистина 'It happened for real'",,,"Тези документи истински ли са?
+Are these documents real?",,,,"Той е истински борец
+He is a true fighter",,,,,,,,,,"Истинският проблем е че нямаме вода
+The real problem is that we don’t have water",Alternative: Проблемът е че нямаме вода 'The problem is that we don’t have water',,,,,,,,,,,,,,
+13,Alice,Bulgarian,bul,Indo-European,Ljuba Veselinova,yes,"истина, истинска, наистина",наистина,really,,,,,,,,,,,,"Alternative: Тя мисли че Нарния е страна, която наистина съществува 'She thinks Narnia is a country that exists for real'",,,,,,,"Наистина пиша книга
+I am really writing a book",,"Наистина искам да напусна това място/да замина оттук/да се махна
+I really want to go",,,,,,,,,,"Наистина е млад, но е добър лекар
+It’s true he’s young, but nonetheless he is a good doctor",,"Вчера бяхме в един добър, наистина скъп, ресторант.
+We were at a good, although expensive, restaurant yesterday.",,"Автобусите вървят, наистина рядко 
+The buses run, although rarely.",,,
+14,Alice,Bulgarian,bul,Indo-European,Ljuba Veselinova,no,"правилният, направо",правилният,right,,,,,,,"Това ли е правилният отговор?
+Is this the right answer?",(no truth word possible),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+15,Alice,Bulgarian,bul,Indo-European,Ljuba Veselinova,no,много,много,very,,,,,,,,,,,,,,,"Тя е много красива жена.
+She is a very beautiful woman","Alternative (with predicate modification): Тя е наистина много красива ‘She is really beautiful’ (much stronger, possibly as agreement)","Много съм доволна че той дойде
+I’m very happy that he came","Alternative (with adverb modification): Наистина  съм много доволна че той дойде 'I’m really very happy that he came'
+Alternative (with different semantics): Наистина  съм доволна че той дойде ‘I am really happy that he came’ (even though someone might believe I am not)",,,,,,,,,,,,,,,,,,,,
+16,Alice,Bulgarian,bul,Indo-European,Ljuba Veselinova,no,нали,нали,right?,,,,,,,,,,,,,,,,,,,,,,,,,"Днес е неделя, нали?
+Today is Sunday, right? ",,,,,,,,,,,,,
+17,Alice,Bulgarian,bul,Indo-European,Ljuba Veselinova,no,въпреки,въпреки,although,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Той е добър човек въпреки че винаги закъснява
+He is a good person, although/admittedly (but the truth is) he is always late ",,"Въпреки че е млад, той е компетентен лекар
+Although he is young, he is a skilled doctor. (It is true that he is young, but he is a skilled doctor)",,,,,,,
+18,Alice,Bulgarian,bul,Indo-European,Ljuba Veselinova,no,макар,макар,although,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Вчера бяхме в един добър, макар и скъп, ресторант.
+We were at a good, although expensive, restaurant yesterday.",,"Автобусите вървят, макар и рядко
+The buses run, although rarely.",,,
+19,Alice,Bulgarian,bul,Indo-European,Ljuba Veselinova,no,откровено,откровено,honestly,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Откровено казано, тази идея не ми харесва
+Frankly speaking (to tell the truth), I don’t like this idea.",
+20,Alice,Bulgarian,bul,Indo-European,Ljuba Veselinova,no,"правилният, направо",направо,directly,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Да ти кажа направо, тази идея не ми харесва
+Frankly speaking (to tell the truth), I don’t like this idea.",
+21,Nastia,Modern Greek,ell,Indo-European,Natalia Kalyva,yes,"αλήθεια, αληθινός, αληθινά",αλήθεια,truth,"Είναι η αλήθεια
+It’s the truth",,"Λέει πάντα την αλήθεια.
+He always tells the truth.",,,,,,,,,,,,"Είναι αλήθεια όμορφη γυναίκα
+She is a very beautiful woman","DOUBLE-CHECK THIS EXAMPLE
+Alternative: αλήθεια πολύ όμορφη (truly very beautiful)","Είμαι αλήθεια χαρούμενη/ος που ήρθε. 
+I’m very happy that he came",DOUBLE-CHECK THIS EXAMPLE,"Γράφω αλήθεια βιβλίο.
+I am really writing a book","Alternative: Αλήθεια, γράφω βιβλίο.","Αλήθεια, θέλω να φύγω.
+I really want to go.",Alternative: Θέλω αλήθεια να φύγω.,,,,,"Ναι, αλήθεια
+[The weather is great today, right?] Yes, it is.",less common than πραγματικα and πράγματι ,,,,,,,,,"Για να πω την αλήθεια, δεν μου αρέσει αυτή η ιδέα.
+Frankly speaking (to tell the truth), I don’t like this idea.","Alternative: Να σου πω την αλήθεια, δεν μου αρέσει αυτή η ιδέα. 
+Comment: Για να πω την αλήθεια ‘to tell the truth’ is a fixed expression. Να σου πω την αλήθεια ‘to tell you (sg) the truth’ is also a fixed expression, can be used even when there are more than one addressee.
+"
+22,Nastia,Modern Greek,ell,Indo-European,Natalia Kalyva,yes,"αλήθεια, αληθινός, αληθινά",αληθινός,true,,,,,"Είναι αληθινή ιστορία.
+It is a true story",more that ‘it’s not a lie’,,,"Είναι αυτά τα έγγραφα αληθινά;
+Are these documents real? ",less common than γνήσια,"Νομίζει πως η Νάρνια είναι αληθινή χώρα.
+She thinks Narnia is a real country.",πραγματική feels a better choice but wouldn’t react to the use of αληθινή,"Είναι αληθινός πολεμιστής
+He is a true fighter",One more example: Είναι αληθινός φίλος 'He is a true friend'.,,,,,,,,,"Το αληθινό πρόβλημα είναι ότι δεν έχουμε νερό.
+The real problem is that we don’t have water",,,,,,,,,,,,,,,
+23,Nastia,Modern Greek,ell,Indo-European,Natalia Kalyva,yes,"αλήθεια, αληθινός, αληθινά",αληθινά,truly,,,,,,,,,,,,,,,"Είναι αληθινά όμορφη γυναίκα
+She is a very beautiful woman","DOUBLE-CHECK THIS EXAMPLE
+Alternative: αληθινά πολύ όμορφη (truly very beautiful)","Είμαι αληθινά χαρούμενη/ος που ήρθε. 
+I’m very happy that he came",DOUBLE-CHECK THIS EXAMPLE,,,,,,,,,,,,,,,,,,,,
+24,Nastia,Modern Greek,ell,Indo-European,Natalia Kalyva,no,"πραγματικότητα, πραγματικός, πραγματικά, πράγματι",πραγματικότητα,reality,"Είναι η πραγματικότητα
+It’s the truth",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+25,Nastia,Modern Greek,ell,Indo-European,Natalia Kalyva,no,"πραγματικότητα, πραγματικός, πραγματικά, πράγματι",πραγματικός,real,,,,,"Είναι πραγματική ιστορία.
+It is a true story.",maybe emphasizes a bit more that ‘based on a true story’,,,"Είναι αυτά τα έγγραφα πραγματικά;
+Are these documents real? ",less common than γνήσια,"Νομίζει πως η Νάρνια είναι πραγματική χώρα.
+She thinks Narnia is a real country.",πραγματική feels a better choice but wouldn’t react to the use of αληθινή,"Είναι πραγματικός πολεμιστής. 
+He is a true fighter.",One more example: Είναι πραγματικός φίλος 'He is a true friend'.,,,,,,,,,"Το πραγματικό πρόβλημα είναι ότι δεν έχουμε νερό.
+The real problem is that we don’t have water ",,,,,,,,,,,,,,,
+26,Nastia,Modern Greek,ell,Indo-European,Natalia Kalyva,no,"πραγματικότητα, πραγματικός, πραγματικά, πράγματι",πραγματικά,really,,,,,,,,,,,,,,,"Είναι πραγματικά όμορφη γυναίκα
+She is a very beautiful woman","the noun πραγματικότητα is impossible.
+Alternative (with adverb/predicate modification): Είναι πραγματικά πολύ όμορφη ('She is really very beautiful woman')","Είμαι πραγματικάχαρούμενη/ος που ήρθε. 
+I’m very happy that he came",DOUBLE-CHECK THIS EXAMPLE,"Γράφω πραγματικά βιβλίο.
+I am really writing a book","Alternative: Πραγματικα, γράφω βιβλίο.","Πραγματικα, θέλω να φύγω.
+I really want to go.",Alternative: Θέλω πραγματικά να φύγω.,,,,,"Ναι, πραγματικα
+[The weather is great today, right?] Yes, it is.",,,,,,,,,,,
+27,Nastia,Modern Greek,ell,Indo-European,Natalia Kalyva,no,"πραγματικότητα, πραγματικός, πραγματικά, πράγματι",πράγματι,indeed,,,,,,,,,,,,,,,,,,,"Γράφω πράγματι βιβλίο.
+I am really writing a book","Alternative: Πράγματι, γράφω βιβλίο.
+Comment: πράγματι means really in the sense on ‘indeed’, I would use it only as an answer or reaction to something else",,,,,,,"Ναι, πράγματι
+[The weather is great today, right?] Yes, it is.",,,,,,,,,,,
+28,Nastia,Modern Greek,ell,Indo-European,Natalia Kalyva,no,σωστή,σωστή,right,,,,,,,"Αυτή είναι η σωστή απάντηση;
+Is this the right answer?",Alternatives (in the context of God who knows the ultimate truth (Rus. istina)): Ο θεός είναι η πραγματική / αληθινή απάντηση ‘God is the real/true answer’. Ο θεός θα μας δώσει τις πραγματικές/ αληθινές απαντήσεις ‘God will give us the real/true answers’.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+29,Nastia,Modern Greek,ell,Indo-European,Natalia Kalyva,no,γνήσια,γνήσια,genuine,,,,,,,,,"Είναι αυτά τα έγγραφα γνήσια;
+Are these documents real? ",more common than αληθινά/πραγματικά,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+30,Nastia,Modern Greek,ell,Indo-European,Natalia Kalyva,no,πολύ,πολύ,very,,,,,,,,,,,,,"Είναι πολύ φίλος
+He is a true friend",,"Είναι πολύ όμορφη γυναίκα.
+She is a very beautiful woman",,"Είμαι πολύ χαρούμενη/ος που ήρθε. 
+I’m very happy that he came",,,,"Πολύ, θέλω να φύγω.
+I really want to go",Alternative: Θέλω πολύ να φύγω.,,,,,,,,,,,,,,,,
+31,Nastia,Modern Greek,ell,Indo-European,Natalia Kalyva,no,αν και,αν και,although,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Είναι καλός άνθρωπος, αν και καυχιέται πολύ.
+He is a good person, although/admittedly (but the truth is) he brags a lot.","Alternative: Είναι καλός άνθρωπος, αν και ομολογουμένως καυχιέται πολύ.","Αν και είναι νέος, είναι  εξαιρετικός/ικανός/επιδέξιος γιατρός.
+Although he is young, he is a skilled doctor. (He is indeed young, but he is a skilled doctor)","Alternative: Αν και ομολογουμένως είναι νέος, είναι  εξαιρετικός/ικανός/επιδέξιος γιατρός.
+","Ήμασταν σε ένα καλο, αν και ακριβό, εστιατόριο εχθές.
+We were at a good, although expensive, restaurant yesterday.",,"Τα λεωφορεία κυκλοφορούν/περνάνε, αν και σπάνια.
+The buses run, although rarely.",,,
+32,Nastia,Modern Greek,ell,Indo-European,Natalia Kalyva,no,"παρόλο που, παρόλαυτα",παρόλο που,although,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Είναι καλός άνθρωπος, παρόλο που όμως καυχιέται πολύ.
+He is a good person, although/admittedly (but the truth is) he brags a lot.",,"Although he is young, he is a skilled doctor. (He is indeed young, but he is a skilled doctor)
+Παρόλο που είναι νέος, είναι  εξαιρετικός/ικανός/ επιδέξιος γιατρός.",,,,,,,
+33,Nastia,Modern Greek,ell,Indo-European,Natalia Kalyva,no,"παρόλο που, παρόλαυτα",παρόλαυτα,nevertheless,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Ήμασταν σε ένα καλο, παρόλαυτα ακριβό, εστιατόριο εχθές.
+We were at a good, although expensive, restaurant yesterday.",,,,,
+34,Nastia,Modern Greek,ell,Indo-European,Natalia Kalyva,no,αλλά,αλλά,but,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Ήμασταν σε ένα καλο, αλλά ακριβό, εστιατόριο εχθές.
+We were at a good, although expensive, restaurant yesterday.",,,,,
+35,Nastia,Modern Greek,ell,Indo-European,Natalia Kalyva,no,ομώς,ομώς,nevertheless,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Ήμασταν σε ένα καλο, ομώς ακριβό, εστιατόριο εχθές.
+We were at a good, although expensive, restaurant yesterday.",,,,,
+36,Nastia,Modern Greek,ell,Indo-European,Natalia Kalyva,no,ειλικρινά,ειλικρινά,honestly,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Ειλικρινά, δεν μου αρέσει αυτή η ιδέα. 
+Frankly speaking (to tell the truth), I don’t like this idea.",
+37,Nastia,Modern Greek,ell,Indo-European,Natalia Kalyva,no,ειλικρινής ,ειλικρινής ,honest,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Για να είμαι ειλικρινής, δεν μου αρέσει αυτή η ιδέα. 
+Frankly speaking (to tell the truth), I don’t like this idea.",
