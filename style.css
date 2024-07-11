@@ -1,11 +1,32 @@
 body {
     font-size: 15px;
+    color: #484a42;
+    font: "Liberation Sans";
 }
 
 .navbar-brand {
     font-size: 20px;
 }
 
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    color: #232a11;
+    line-height: inherit;
+}
+
+h1, .h1 {
+    font-weight: bold;
+}
+
+h2, .h2 {
+    font-weight: 500;
+    font-size: 27px;
+}
+
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+    background-color: #1C6445;
+    border-color: #1C6445;
+}
 
 .hero-image {
     position: relative;

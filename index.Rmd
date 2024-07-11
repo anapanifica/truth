@@ -22,7 +22,7 @@ This website presents a typological database of the extended functions of 'truth
 
 ---
 
-### Questionnaire
+## Questionnaire
 
 The database was collected using the following questionnaire.
 
@@ -55,7 +55,7 @@ kable(column_description)
 
 ---
 
-### Languages
+## Languages
 
 The sample includes 50 languages spoken in Eurasia.
 ```{r, include=FALSE, echo=FALSE}
@@ -104,12 +104,12 @@ datatable(
 
 ---
 
-### How to cite
+## How to cite
 
 If you use this database in your research, please cite as follows:
 
 ```{}
-Bandarenko, Alice, Anastasia Panova & Anna Sjöberg. 2024. Extended functions of 'truth'-words. A typological database. Stockholm: Stockholm University.
+Bandarenko, Alice, Anastasia Panova & Anna Sjöberg. 2024. Extended functions of 'truth'-words. A typological database. Stockholm: Stockholm University. Available online at https://anapanifica.github.io/truth/.
 ```
 
 
