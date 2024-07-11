@@ -53,7 +53,8 @@ Is this the right answer?",(no truth word possible),,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 She is a very beautiful woman","Alternative (with predicate modification): Тя е наистина много красива ‘She is really beautiful’ (much stronger, possibly as agreement)","Много съм доволна че той дойде
 I’m very happy that he came","Alternative (with adverb modification): Наистина  съм много доволна че той дойде 'I’m really very happy that he came'
 Alternative (with different semantics): Наистина  съм доволна че той дойде ‘I am really happy that he came’ (even though someone might believe I am not)",,,,,,,,,,,,,,,,,,,,
-16,Alice,Bulgarian,bul,Indo-European,Ljuba Veselinova,no,нали,нали,right?,,,,,,,,,,,,,,,,,,,,,,,,,"Днес е неделя, нали?
+16,Alice,Bulgarian,bul,Indo-European,Ljuba Veselinova,no,"нали
+nali",нали,right?,,,,,,,,,,,,,,,,,,,,,,,,,"Днес е неделя, нали?
 Today is Sunday, right? ",,,,,,,,,,,,,
 17,Alice,Bulgarian,bul,Indo-European,Ljuba Veselinova,no,въпреки,въпреки,although,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Той е добър човек въпреки че винаги закъснява
 He is a good person, although/admittedly (but the truth is) he is always late ",,"Въпреки че е млад, той е компетентен лекар
@@ -132,5 +133,44 @@ We were at a good, although expensive, restaurant yesterday.",,,,,
 We were at a good, although expensive, restaurant yesterday.",,,,,
 36,Nastia,Modern Greek,ell,Indo-European,Natalia Kalyva,no,ειλικρινά,ειλικρινά,honestly,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Ειλικρινά, δεν μου αρέσει αυτή η ιδέα. 
 Frankly speaking (to tell the truth), I don’t like this idea.",
-37,Nastia,Modern Greek,ell,Indo-European,Natalia Kalyva,no,ειλικρινής ,ειλικρινής ,honest,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Για να είμαι ειλικρινής, δεν μου αρέσει αυτή η ιδέα. 
+37,Nastia,Modern Greek,ell,Indo-European,"Natalia Kalyva
+",no,ειλικρινής ,ειλικρινής ,honest,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Για να είμαι ειλικρινής, δεν μου αρέσει αυτή η ιδέα. 
+Frankly speaking (to tell the truth), I don’t like this idea.",
+38,Alice,Serbian,srp,Indo-European,Alexander Piperski,yes,istina,istina,truth,"To je istina.
+It is the truth.",,"Uvek govori istinu.
+He always tells the truth.",,,,,,,,,,,,,,,,,,,,,,,,,,,,"Istina je da uvek kasni, ali je ipak dobar čovek.
+It is true that he is always late, but he is a good person",,"Juče smo bili u jednom dobrom restoranu, istina je da je bilo skupo.
+We were at a good, although expensive, restaurant yesterday.",,"Idu autobusi, istina je da retko.
+The buses run, although rarely.",,"Da kažem istinu, meni se ne sviđa ova ideja.
+Frankly speaking (to tell the truth), I don’t like this idea.",
+39,Alice,Serbian,srp,Indo-European,Alexander Piperski,yes,instinski,instinski,true,,,,,"Ovo je istinska priča.
+It is a true story",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+40,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,korektan,korektan,correct,,,,,,,"Da li je to korektan odgovor?
+Is this the right answer?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+41,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,pravi,pravi,"true, real",,,,,,,,,"Da li su ti papiri pravi?
+Are these documents real?",,?,,"On je pravi borac.
+He is a true fighter.",,,,,,,,,,"Pravi problem je da nemamo vode.
+The real problem is that we don’t have water.
+",,,,,,,,,,,,,,,
+42,Alice,Serbian,srp,Indo-European,Alexander Piperski,yes,zaista,zaista,truly,,,,,,,,,,,,,,,"Ona je zaista lepa žena.
+She is a very beautiful woman.",,"Zaista sam srećan da je došao.
+I’m very happy that he came.",,,,"Zaista želim da odem.
+I really want to go.",,,,,,,,,,,,,,,,,
+43,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,upravo,upravo,really,,,,,,,,,,,,,,,"Ona je upravo lepa žena.
+She is a very beautiful woman.",,,,,,,,,,,,,,,,,,,,,,,
+44,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,stvarno,stvarno,really,,,,,,,,,,,,,,,"Ona je vrlo lepa žena.
+She is a very beautiful woman.",,,,"Stvarno pišem knjigu.
+I am really writing a book",In the context of “you’re probably not writing a book”,"Stvarno želim da odem.
+I really want to go.",,,,,,,,,,,,,,,,,
+45,Alice,Serbian,srp,Indo-European,Alexander Piperski,yes,naistinu,naistinu,truly,,,,,,,,,,,,,,,,,"Mnogo sam srećan da je došao.
+I’m very happy that he came.",,,,,,,,,,,,,,,,,,,,,
+46,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,vrlo,vrlo,very,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+47,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,mnogo,mnogo,"many, very",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+48,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,je l' tako,je l' tako,is it?,,,,,,,,,,,,,,,,,,,,,,,,,"Danas je nedelja, je l' tako?
+Today is Sunday, right?",,,,,,,,,,,,,
+49,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,tako je,tako je,it is,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tako je.
+[The weather is great today, right?] Yes, it is.",,,,,,,,,,,
+50,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,bez obzira na,bez obzira na,regardless of,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"On je dobar čovek bez obzira na to što uvek kasni.
+He is a good person, although he is always late",,,,,,,,,
+51,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,iskreno,iskreno,honsestly,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Iskreno govoreći, meni se ne sviđa ova ideja.
 Frankly speaking (to tell the truth), I don’t like this idea.",

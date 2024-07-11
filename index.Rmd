@@ -24,31 +24,31 @@ This website presents a typological database of the extended functions of 'truth
 
 ## Questionnaire
 
-The database was collected using the following questionnaire.
+The data were collected using the following questionnaire.
 
 ```{r, echo=FALSE}
 library(knitr)
 column_description <- tibble::tribble(
-  ~tag, ~description, ~stimulus,
-   "`truth_pred`", "", "It’s the truth. [It is not made up, it is how things are]",
-  "`truth_n`",  "", "He always tells the truth.",
-  "`truth_adj`",  "", "It is a true story [I’m not lying]",
-  "`right`",  "", "Is this the right answer? [Or is it the wrong answer?]",
-  "`genuine`",  "", "Are these documents real? [Or are they fakes?]",
-  "`real`",  "", "She thinks Narnia is a real country. [It’s actually made up]",
-  "`CL`",  "", "He is a true fighter [He has all the qualities characteristic of a fighter]",
-  "`int_adj`",  "", "She is a very beautiful woman",
-  "`int_adv`",  "", "I’m very happy that he came",
-  "`really_pred`",  "", "I am really writing a book [even though they said I couldn’t]",
-  "`int_pred`",  "", "I really want to go [I can’t stand it here]",
-  "`select`",  "", "The real problem is that we don’t have water [that’s what we have to focus on]",
-  "`tag`",  "", "The weather is great today, right? ",
-  "`affirm`",  "", "[The weather is great today, right?] Yes, it is.",
-  "`conc_pred1`",  "", "He is a good person, although/admittedly (but the truth is) he brags a lot.",
-  "`conc_pred2`",  "", "Although he is young, he is a skilled doctor. (He is indeed young, but he is a skilled doctor)",
-  "`conc_adj`",  "", "We were at a good, although expensive, restaurant yesterday.",
-  "`conc_adv`",  "", "The buses run, although rarely.",
-  "`subj`",  "", "Frankly speaking (to tell the truth), I don’t like this idea."
+  ~tag, ~description, ~"stimulus",
+   "`truth_pred`", "What 'truth'-word is used in the predicative position?", "It’s the truth. [It is not made up, it is how things are]",
+  "`truth_n`",  "What 'truth'-word is used in the argument position?", "He always tells the truth.",
+  "`truth_adj`",  "What 'truth'-word is used in the attributive position?", "It is a true story [I’m not lying]",
+  "`right`",  "Can any of the 'truth'-words also mean 'right'?", "Is this the right answer? [Or is it the wrong answer?]",
+  "`genuine`",  "Can any of the 'truth'-words also mean 'genuine, original'?", "Are these documents real? [Or are they fakes?]",
+  "`real`",  "Can any of the 'truth'-words also mean 'real'?", "She thinks Narnia is a real country. [It’s actually made up]",
+  "`CL`",  "Does any of the 'truth'-words have the counter-loosener function (in terms of Bardenstein & Ariel 2022)?", "He is a true fighter [He has all the qualities characteristic of a fighter]",
+  "`int_adj`",  "Can any of the 'truth'-words be used as an intensifier of an adjective in the noun phrase?", "She is a very beautiful woman",
+  "`int_adv`",  "Can any of the 'truth'-words be used as an intensifier of a nominal predicate?", "I’m very happy that he came",
+  "`really_pred`",  "Is any of the 'truth'-words colexified with 'really'?", "I am really writing a book [even though they said I couldn’t]",
+  "`int_pred`",  "Can any of the 'truth'-words be used as an intensifier of a verbal predicate?", "I really want to go [I can’t stand it here]",
+  "`select`",  "Does any of the 'truth'-words have the selective function (in terms of Beekhuizen et al. 2023)?", "The real problem is that we don’t have water [that’s what we have to focus on]",
+  "`tag`",  "Can any of the 'truth'-words be used as a tag-question?", "The weather is great today, right? ",
+  "`affirm`",  "Can any of the 'truth'-words be used as an affirmation marker?", "[The weather is great today, right?] Yes, it is.",
+  "`conc_pred1`",  "Is any of the 'truth'-words involved in a concessive marker introducing a finite clause?", "He is a good person, although/admittedly (but the truth is) he brags a lot.",
+  "`conc_pred2`",  "Is any of the 'truth'-words be involved in a concessive marker introducing a finite clause?", "Although he is young, he is a skilled doctor. (He is indeed young, but he is a skilled doctor)",
+  "`conc_adj`",  "Is any of the 'truth'-words involved in a concessive marker introducing an attributive modifier?", "We were at a good, although expensive, restaurant yesterday.",
+  "`conc_adv`",  "Is any of the 'truth'-words involved in a concessive marker introducing an adverbial modifier?", "The buses run, although rarely.",
+  "`subj`",  "Are any of the 'truth'-words involved in expressions introducing subjective evaluation statements?", "Frankly speaking (to tell the truth), I don’t like this idea."
   )
 kable(column_description)
 ```
@@ -65,13 +65,10 @@ df <- read.csv("data.csv", na.strings=c("","NA"))
 ```
 
 ```{r, echo=FALSE, out.width = '100%'}
-df%>%
-  select("language_name", "family") -> lngs
-lngs <-unique(lngs)
   
-map.feature(languages = lngs$language_name,
-            features = lngs$family,
-            label = lngs$language,
+map.feature(languages = lang.iso(df$iso),
+            features = df$family,
+            label = df$language_name,
             tile = "Esri.WorldPhysical",
             color = "darkgreen",
             width = 6
