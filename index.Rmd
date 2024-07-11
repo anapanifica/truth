@@ -71,7 +71,10 @@ lngs <-unique(lngs)
   
 map.feature(languages = lngs$language_name,
             features = lngs$family,
-            label = lngs$language
+            label = lngs$language,
+            tile = "Esri.WorldPhysical",
+            color = "darkgreen",
+            width = 6
             )
 ```
 
