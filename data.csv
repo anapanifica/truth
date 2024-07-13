@@ -1,4 +1,4 @@
-id_number,researcher,language_name,iso,family,consultant,truth_word,word_group,word,translation,truth_pred,truth_pred_comment,truth_n,truth_n_comment,truth_adj,truth_adj_comment,right,right_comment,genuine,genuine_comment,real,real_comment,CL,CL_comment,int_adj,int_adj_comment,int_adv,int_adv_comment,really_pred,really_pred_comment,int_pred,int_pred_comment,select,select_comment,tag,tag_comment,affirm,affirm_comment,conc_pred1,conc_pred1_comment,conc_pred2,conc_pred2_comment,conc_adj,conc_adj_comment,conc_adv,conc_adv_comment,subj,subj_comment
+id_number,researcher,language_name,iso,family,consultant,truth_word,word_group,word,translation,truth_pred,truth_pred_comment,truth_n,truth_n_comment,truth_adj,truth_adj_comment,right,right_comment,genuine,genuine_comment,real,real_comment,CL,CL_comment,int_adj,int_adj_comment,int_npred,int_npred_comment,really_pred,really_pred_comment,int_pred,int_pred_comment,select,select_comment,tag,tag_comment,affirm,affirm_comment,conc_pred1,conc_pred1_comment,conc_pred2,conc_pred2_comment,conc_adj,conc_adj_comment,conc_adv,conc_adv_comment,subj,subj_comment
 1,Nastia,Dutch,nld,Indo-European,Samira Verhees,yes,"waarheid, waargebeurd",waarheid,truth,"Het is de waarheid.
 It’s the truth.",,"Hij vertelt altijd de waarheid.
 He always tells the truth.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -136,41 +136,80 @@ Frankly speaking (to tell the truth), I don’t like this idea.",
 37,Nastia,Modern Greek,ell,Indo-European,"Natalia Kalyva
 ",no,ειλικρινής ,ειλικρινής ,honest,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Για να είμαι ειλικρινής, δεν μου αρέσει αυτή η ιδέα. 
 Frankly speaking (to tell the truth), I don’t like this idea.",
-38,Alice,Serbian,srp,Indo-European,Alexander Piperski,yes,istina,istina,truth,"To je istina.
+38,Nastia,Italian,ita,Indo-European,Chiara Naccarato,yes,"verità, vero, davvero, veramente",verità,truth,"È la verità.
+It’s the truth.",,"(Lui) dice sempre la verità.
+He always tells the truth.",,,,,,,,,,,,,,,,,,,,,,,,,,"È una brava persona, ma (la verità è che) si vanta molto / troppo.
+He is a good person, although/admittedly (but the truth is) he brags a lot.",,,,,,,,,"A dire la verità non mi piace questa idea.
+Frankly speaking (to tell the truth), I don’t like this idea."
+39,Nastia,Italian,ita,Indo-European,Chiara Naccarato,yes,"verità, vero, davvero, veramente",vero,true,,,,,"È una storia vera.
+It is a true story.",,,,,,,,"(Lui) è un vero combattente.
+He is a true fighter ",,,,,,,,,,"Il vero problema è che non abbiamo acqua.
+The real problem is that we don’t have water",,"Il tempo è bellissimo oggi, vero?
+The weather is great today, right?",,,,,,,,,,,,,"A dire il vero non mi piace questa idea.
+Frankly speaking (to tell the truth), I don’t like this idea."
+40,Nastia,Italian,ita,Indo-European,Chiara Naccarato,no,giusta,giusta,right,,,,,,,"È (questa) la risposta giusta?
+Is this the right answer?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+41,Nastia,Italian,ita,Indo-European,Chiara Naccarato,no,autentici,autentici,genuine,,,,,,,,,"Questi documenti sono autentici?
+Are these documents real? ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+42,Nastia,Italian,ita,Indo-European,Chiara Naccarato,no,"reale, realmente",reale,real,,,,,,,,,,,"(Lei) pensa che Narnia sia un paese reale.
+She thinks Narnia is a real country. ",Alternative: (Lei) pensa che Narnia sia un paese esistente. ,,,,,,,,,,,,,,,,,,,,,,,,,,
+43,Nastia,Italian,ita,Indo-European,Chiara Naccarato,no,-issimo,-issimo,superlative degree,,,,,,,,,,,,,,,"(Lei) è una bellissima donna.
+She is a very beautiful woman.",,,,,,,,,,,,,,,,,,,,,,,
+44,Nastia,Italian,ita,Indo-European,Chiara Naccarato,no,molto,molto,very,,,,,,,,,,,,,,,,,"Sono molto contento che (lui) sia venuto.
+I’m very happy that he came",,,,,,,,,,,,,,,,,,,,,
+45,Nastia,Italian,ita,Indo-European,Chiara Naccarato,yes,"verità, vero, davvero, veramente",davvero,truly,,,,,,,,,,,,,,,,,,,"Sto davvero scrivendo un libro.
+I am really writing a book",,"Voglio davvero andarmene.
+I really want to go ",,,,,,,,,,,,,,,,,
+46,Nastia,Italian,ita,Indo-European,Chiara Naccarato,yes,"verità, vero, davvero, veramente",veramente,truly,,,,,,,,,,,,,,,,,,,"Sto veramente scrivendo un libro.
+I am really writing a book",,"Voglio veramente andarmene.
+I really want to go ",,,,,,,,,,,,,,,,,
+47,Nastia,Italian,ita,Indo-European,Chiara Naccarato,no,"reale, realmente",realmente,realmente,,,,,,,,,,,,,,,,,,,"Sto realmente scrivendo un libro.
+I am really writing a book",,,,,,,,,,,,,,,,,,,
+48,Nastia,Italian,ita,Indo-European,Chiara Naccarato,no,proprio,proprio,"just, really",,,,,,,,,,,,,,,,,,,,,"Voglio proprio andarmene.
+I really want to go ",,,,,,,,,,,,,,,,,
+49,Nastia,Italian,ita,Indo-European,Chiara Naccarato,no,lo è,lo è,it is,,,,,,,,,,,,,,,,,,,,,,,,,,,"Sì(, lo è).
+[The weather is great today, right?] Yes, it is.",,,,,,,,,,,
+50,Nastia,Italian,ita,Indo-European,Chiara Naccarato,no,nonostante,nonostante,despite,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Nonostante sia giovane, è un medico competente.
+Although he is young, he is a skilled doctor. ",,,,,,,
+51,Nastia,Italian,ita,Indo-European,Chiara Naccarato,no,anche se,anche se,although,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Ieri siamo stati in un bel ristorante, anche se costoso.
+We were at a good, although expensive, restaurant yesterday.",,,,,
+52,Nastia,Italian,ita,Indo-European,Chiara Naccarato,no,ma,ma,but,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Gli autobus passano, ma raramente.
+The buses run, although rarely.",,,
+53,Alice,Serbian,srp,Indo-European,Alexander Piperski,yes,istina,istina,truth,"To je istina.
 It is the truth.",,"Uvek govori istinu.
 He always tells the truth.",,,,,,,,,,,,,,,,,,,,,,,,,,,,"Istina je da uvek kasni, ali je ipak dobar čovek.
 It is true that he is always late, but he is a good person",,"Juče smo bili u jednom dobrom restoranu, istina je da je bilo skupo.
 We were at a good, although expensive, restaurant yesterday.",,"Idu autobusi, istina je da retko.
 The buses run, although rarely.",,"Da kažem istinu, meni se ne sviđa ova ideja.
 Frankly speaking (to tell the truth), I don’t like this idea.",
-39,Alice,Serbian,srp,Indo-European,Alexander Piperski,yes,instinski,instinski,true,,,,,"Ovo je istinska priča.
+54,Alice,Serbian,srp,Indo-European,Alexander Piperski,yes,instinski,instinski,true,,,,,"Ovo je istinska priča.
 It is a true story",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-40,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,korektan,korektan,correct,,,,,,,"Da li je to korektan odgovor?
+55,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,korektan,korektan,correct,,,,,,,"Da li je to korektan odgovor?
 Is this the right answer?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-41,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,pravi,pravi,"true, real",,,,,,,,,"Da li su ti papiri pravi?
+56,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,pravi,pravi,"true, real",,,,,,,,,"Da li su ti papiri pravi?
 Are these documents real?",,?,,"On je pravi borac.
 He is a true fighter.",,,,,,,,,,"Pravi problem je da nemamo vode.
 The real problem is that we don’t have water.
 ",,,,,,,,,,,,,,,
-42,Alice,Serbian,srp,Indo-European,Alexander Piperski,yes,zaista,zaista,truly,,,,,,,,,,,,,,,"Ona je zaista lepa žena.
+57,Alice,Serbian,srp,Indo-European,Alexander Piperski,yes,zaista,zaista,truly,,,,,,,,,,,,,,,"Ona je zaista lepa žena.
 She is a very beautiful woman.",,"Zaista sam srećan da je došao.
 I’m very happy that he came.",,,,"Zaista želim da odem.
 I really want to go.",,,,,,,,,,,,,,,,,
-43,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,upravo,upravo,really,,,,,,,,,,,,,,,"Ona je upravo lepa žena.
+58,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,upravo,upravo,really,,,,,,,,,,,,,,,"Ona je upravo lepa žena.
 She is a very beautiful woman.",,,,,,,,,,,,,,,,,,,,,,,
-44,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,stvarno,stvarno,really,,,,,,,,,,,,,,,"Ona je vrlo lepa žena.
+59,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,stvarno,stvarno,really,,,,,,,,,,,,,,,"Ona je vrlo lepa žena.
 She is a very beautiful woman.",,,,"Stvarno pišem knjigu.
 I am really writing a book",In the context of “you’re probably not writing a book”,"Stvarno želim da odem.
 I really want to go.",,,,,,,,,,,,,,,,,
-45,Alice,Serbian,srp,Indo-European,Alexander Piperski,yes,naistinu,naistinu,truly,,,,,,,,,,,,,,,,,"Mnogo sam srećan da je došao.
+60,Alice,Serbian,srp,Indo-European,Alexander Piperski,yes,naistinu,naistinu,truly,,,,,,,,,,,,,,,,,"Mnogo sam srećan da je došao.
 I’m very happy that he came.",,,,,,,,,,,,,,,,,,,,,
-46,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,vrlo,vrlo,very,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-47,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,mnogo,mnogo,"many, very",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-48,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,je l' tako,je l' tako,is it?,,,,,,,,,,,,,,,,,,,,,,,,,"Danas je nedelja, je l' tako?
+61,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,vrlo,vrlo,very,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+62,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,mnogo,mnogo,"many, very",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+63,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,je l' tako,je l' tako,is it?,,,,,,,,,,,,,,,,,,,,,,,,,"Danas je nedelja, je l' tako?
 Today is Sunday, right?",,,,,,,,,,,,,
-49,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,tako je,tako je,it is,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tako je.
+64,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,tako je,tako je,it is,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tako je.
 [The weather is great today, right?] Yes, it is.",,,,,,,,,,,
-50,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,bez obzira na,bez obzira na,regardless of,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"On je dobar čovek bez obzira na to što uvek kasni.
+65,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,bez obzira na,bez obzira na,regardless of,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"On je dobar čovek bez obzira na to što uvek kasni.
 He is a good person, although he is always late",,,,,,,,,
-51,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,iskreno,iskreno,honsestly,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Iskreno govoreći, meni se ne sviđa ova ideja.
+66,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,iskreno,iskreno,honsestly,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Iskreno govoreći, meni se ne sviđa ova ideja.
 Frankly speaking (to tell the truth), I don’t like this idea.",
