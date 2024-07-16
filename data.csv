@@ -175,41 +175,418 @@ Although he is young, he is a skilled doctor. ",,,,,,,
 We were at a good, although expensive, restaurant yesterday.",,,,,
 52,Nastia,Italian,ita,Indo-European,Chiara Naccarato,no,ma,ma,but,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Gli autobus passano, ma raramente.
 The buses run, although rarely.",,,
-53,Alice,Serbian,srp,Indo-European,Alexander Piperski,yes,istina,istina,truth,"To je istina.
+53,Nastia,Spanish,spa,Indo-European,Manuel Padilla-Moyano,yes,"verdad, de verdad, verdadero, verdaderamente",verdad,truth,"Es la verdad.
+It's the truth.",Here we often emphasize by using the adjective pura (pure): Es la pura verdad.,"(Él) siempre dice la verdad.
+He always tells the truth.",,,,,,,,,,,,,,,,,,,,,,"Hoy hace un tiempo buenísimo, verdad?
+The weather is great today, right?",,,,"Es una buena persona, aunque la verdad es que presume mucho.
+He is a good person, although/admittedly (but the truth is) he brags a lot.",,,,,,,,"A decir verdad, no me gusta esta idea.
+Frankly speaking (to tell the truth), I don’t like this idea.",
+54,Nastia,Spanish,spa,Indo-European,Manuel Padilla-Moyano,no,"realidad, real, realmente",realidad,reality,"Es la realidad.
+It’s the truth.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+55,Nastia,Spanish,spa,Indo-European,Manuel Padilla-Moyano,yes,"verdad, de verdad, verdadero, verdaderamente",verdadero ,true,,,,,"Es una historia verdadera.
+It is a true story.",,"Es esta la respuesta verdadera?
+Is this the right answer? ","less likely to occur, but it is acceptable","Estos documentos son verdaderos?
+Are these documents real? ","less likely to occur, but it is acceptable",,,"(Él) es un verdadero luchador. 
+He is a true fighter ",,,,,,,,,,"El verdadero problema es que no tenemos agua.
+The real problem is that we don’t have water.",,,,,,,,,,,,,,,
+56,Nastia,Spanish,spa,Indo-European,Manuel Padilla-Moyano,no,"realidad, real, realmente",real,real,,,,,"Es una historia real.
+It is a true story.",,,,,,"Ella cree que Narnia es un país real.
+She thinks Narnia is a real country.",,,,,,,,,,,,"El problema real es que no tenemos agua.
+The real problem is that we don’t have water.",,,,,,,,,,,,,,,
+57,Nastia,Spanish,spa,Indo-European,Manuel Padilla-Moyano,no,correcta,correcta,right,,,,,,,"Es ésta la respuesta correcta? 
+Is this the right answer?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+58,Nastia,Spanish,spa,Indo-European,Manuel Padilla-Moyano,no,auténtico,auténtico,genuine,,,,,,,,,"Estos documentos son auténticos? 
+Are these documents real? ",,,,"(Él) es un auténtico luchador. 
+He is a true fighter.",,,,,,,,,,,,,,,,,,,,,,,,,
+59,Nastia,Spanish,spa,Indo-European,Manuel Padilla-Moyano,yes,"verdad, de verdad, verdadero, verdaderamente",de verdad ,"real, really",,,,,,,,,,,"Ella cree que Narnia es un país de verdad. 
+She thinks Narnia is a real country.",,,,"Ella es una mujer guapa de verdad.
+She is a very beautiful woman.",,"(Yo) estoy de verdad feliz de que él hwyw venido.
+I’m very happy that he came.",,"(Yo) de verdad estoy escribiendo un libro.
+I am really writing a book",,"(Yo) de verdad quiero irme.
+I really want to go.",,"El problema de verdad es que no tenemos agua.
+The real problem is that we don’t have water.",,,,,,,,,,,,,,,
+60,Nastia,Spanish,spa,Indo-European,Manuel Padilla-Moyano,no,muy,muy,very,,,,,,,,,,,,,,,"Ella es una mujer muy guapa. 
+She is a very beautiful woman",,"(Yo) estoy muy feliz de que él hwyw venido.
+I’m very happy that he came.",,,,,,,,,,,,,,,,,,,,,
+61,Nastia,Spanish,spa,Indo-European,Manuel Padilla-Moyano,yes,"verdad, de verdad, verdadero, verdaderamente",verdaderamente,truly,,,,,,,,,,,,,,,"Ella es una mujer verdaderamente guapa.
+She is a very beautiful woman.",,"(Yo) estoy verdaderamente feliz de que él hwyw venido.
+I’m very happy that he came.",,,,"(Yo) verdaderamente/de verdad quiero irme.
+I really want to go.",,,,,,,,,,,,,,,,,
+62,Nastia,Spanish,spa,Indo-European,Manuel Padilla-Moyano,no,"realidad, real, realmente",realmente,really,,,,,,,,,,,,,,,"Ella es una mujer realmente guapa.
+She is a very beautiful woman.",,"(Yo) estoy realmente feliz de que él hwyw venido.
+I’m very happy that he came.",,"(Yo) realmente estoy escribiendo un libro.
+I am really writing a book",,,,,,,,,,,,,,,,,,,
+63,Nastia,Spanish,spa,Indo-European,Manuel Padilla-Moyano,no,de veras,de veras,really,,,,,,,,,,,,,,,,,,,"De veras crees que Narnia existe? 
+Do you really think that Narnia exists?",,,,,,,,,,,,,,,,,,,
+64,Nastia,Spanish,spa,Indo-European,Manuel Padilla-Moyano,no,aunque,aunque,although,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Aunque es joven, es un médico competente.
+Although he is young, he is a skilled doctor. ",,,,"El autobús pasa, aunque raramente.
+The buses run, although rarely.",,,
+65,Nastia,Spanish,spa,Indo-European,Manuel Padilla-Moyano,no,pero,pero,but,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Ayer estuvimos en un restaurante bueno, pero caro.
+We were at a good, although expensive, restaurant yesterday.",,,,,
+66,Nastia,Spanish,spa,Indo-European,Manuel Padilla-Moyano,no,francamente,francamente,frankly,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Hablando francamente no me gusta esta idea.
+Frankly speaking (to tell the truth), I don’t like this idea.",
+67,Nastia,Spanish,spa,Indo-European,Manuel Padilla-Moyano,no,honestamente,honestamente,honestly,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Hablando honestamente no me gusta esta idea.
+Frankly speaking (to tell the truth), I don’t like this idea.",
+68,Alice,Serbian,srp,Indo-European,Alexander Piperski,yes,"istina, instinski, naistinu, zaista",istina,truth,"To je istina.
 It is the truth.",,"Uvek govori istinu.
 He always tells the truth.",,,,,,,,,,,,,,,,,,,,,,,,,,,,"Istina je da uvek kasni, ali je ipak dobar čovek.
 It is true that he is always late, but he is a good person",,"Juče smo bili u jednom dobrom restoranu, istina je da je bilo skupo.
 We were at a good, although expensive, restaurant yesterday.",,"Idu autobusi, istina je da retko.
 The buses run, although rarely.",,"Da kažem istinu, meni se ne sviđa ova ideja.
 Frankly speaking (to tell the truth), I don’t like this idea.",
-54,Alice,Serbian,srp,Indo-European,Alexander Piperski,yes,instinski,instinski,true,,,,,"Ovo je istinska priča.
+69,Alice,Serbian,srp,Indo-European,Alexander Piperski,yes,"istina, instinski, naistinu, zaista",instinski,true,,,,,"Ovo je istinska priča.
 It is a true story",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-55,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,korektan,korektan,correct,,,,,,,"Da li je to korektan odgovor?
+70,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,korektan,korektan,correct,,,,,,,"Da li je to korektan odgovor?
 Is this the right answer?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-56,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,pravi,pravi,"true, real",,,,,,,,,"Da li su ti papiri pravi?
+71,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,"pravi, upravo",pravi,"true, real",,,,,,,,,"Da li su ti papiri pravi?
 Are these documents real?",,?,,"On je pravi borac.
 He is a true fighter.",,,,,,,,,,"Pravi problem je da nemamo vode.
 The real problem is that we don’t have water.
 ",,,,,,,,,,,,,,,
-57,Alice,Serbian,srp,Indo-European,Alexander Piperski,yes,zaista,zaista,truly,,,,,,,,,,,,,,,"Ona je zaista lepa žena.
+72,Alice,Serbian,srp,Indo-European,Alexander Piperski,yes,"istina, instinski, naistinu, zaista",zaista,truly,,,,,,,,,,,,,,,"Ona je zaista lepa žena.
 She is a very beautiful woman.",,"Zaista sam srećan da je došao.
 I’m very happy that he came.",,,,"Zaista želim da odem.
 I really want to go.",,,,,,,,,,,,,,,,,
-58,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,upravo,upravo,really,,,,,,,,,,,,,,,"Ona je upravo lepa žena.
+73,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,"pravi, upravo",upravo,really,,,,,,,,,,,,,,,"Ona je upravo lepa žena.
 She is a very beautiful woman.",,,,,,,,,,,,,,,,,,,,,,,
-59,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,stvarno,stvarno,really,,,,,,,,,,,,,,,"Ona je vrlo lepa žena.
+74,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,stvarno,stvarno,really,,,,,,,,,,,,,,,"Ona je vrlo lepa žena.
 She is a very beautiful woman.",,,,"Stvarno pišem knjigu.
 I am really writing a book",In the context of “you’re probably not writing a book”,"Stvarno želim da odem.
 I really want to go.",,,,,,,,,,,,,,,,,
-60,Alice,Serbian,srp,Indo-European,Alexander Piperski,yes,naistinu,naistinu,truly,,,,,,,,,,,,,,,,,"Mnogo sam srećan da je došao.
+75,Alice,Serbian,srp,Indo-European,Alexander Piperski,yes,"istina, instinski, naistinu, zaista",naistinu,truly,,,,,,,,,,,,,,,,,"Mnogo sam srećan da je došao.
 I’m very happy that he came.",,,,,,,,,,,,,,,,,,,,,
-61,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,vrlo,vrlo,very,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-62,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,mnogo,mnogo,"many, very",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-63,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,je l' tako,je l' tako,is it?,,,,,,,,,,,,,,,,,,,,,,,,,"Danas je nedelja, je l' tako?
+76,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,vrlo,vrlo,very,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+77,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,mnogo,mnogo,"many, very",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+78,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,je l' tako,je l' tako,is it?,,,,,,,,,,,,,,,,,,,,,,,,,"Danas je nedelja, je l' tako?
 Today is Sunday, right?",,,,,,,,,,,,,
-64,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,tako je,tako je,it is,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tako je.
+79,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,tako je,tako je,it is,,,,,,,,,,,,,,,,,,,,,,,,,,,"Tako je.
 [The weather is great today, right?] Yes, it is.",,,,,,,,,,,
-65,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,bez obzira na,bez obzira na,regardless of,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"On je dobar čovek bez obzira na to što uvek kasni.
+80,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,bez obzira na,bez obzira na,regardless of,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"On je dobar čovek bez obzira na to što uvek kasni.
 He is a good person, although he is always late",,,,,,,,,
-66,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,iskreno,iskreno,honsestly,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Iskreno govoreći, meni se ne sviđa ova ideja.
+81,Alice,Serbian,srp,Indo-European,Alexander Piperski,no,iskreno,iskreno,honsestly,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Iskreno govoreći, meni se ne sviđa ova ideja.
 Frankly speaking (to tell the truth), I don’t like this idea.",
+82,Alice,Lithuanian,lit,Indo-European,Danguole Kotryna Kapkan,yes,"tiesa, iš tiesų",tiesa,"truth, true","Tai/čia tiesa.
+It's the truth.","čia would probably be considered rather informal, but the sentence with tai sounds rather artificial to me, not really something I would say","Jis visada sako tiesą.
+He always tells the truth.",,,,,,,,,,,,,,,,,,,,,,,,,,"Jis geras žmogus, [nors] tiesa, daug skundžiasi.
+He is a good person, although/admittedly (but the truth is) he brags a lot.","(if you add nors, also iš tikrųjų tai/iš tiesų tai/realiai tai can be used here. Without nors, only tiesa sounds acceptable to me)","Jis jaunas, tiesa, bet geras gydytojas.
+Although he is young, he is a skilled doctor. (He is indeed young, but he is a skilled doctor)","Alternatives: Nors jis dar jaunas, bet yra geras gydytojas. Jis jaunas, tiesa, bet geras gydytojas.","Vakar buvome gerame, tiesa, brangiame restorane.
+We were at a good, although expensive, restaurant yesterday.",,"Autobusai važinėja, tiesa, retokai.
+The buses run, although rarely.",,"Tiesą sakant/tiesą pasakius, ši mintis man nepatinka.",Alternative: Iš tiesų/iš tikrųjų/realiai tai ši mintis man nepatinka.
+83,Alice,Lithuanian,lit,Indo-European,Danguole Kotryna Kapkan,yes,teisybė,teisybė,truth,"Teisybė
+It’s the truth.",,"Jis visada sako teisybę.
+He always tells the truth.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Alice,Lithuanian,lit,Indo-European,Danguole Kotryna Kapkan,no,"tikras, iš tikrųjų, tikrai",tikras,"correct, true",,,,,"Tai/čia tikras pasakojimas.
+It is a true story.",Alternative: Tai/čia tikra istorija.,,,"Ar šie dokumentai tikri?
+Are these documents real?",,"Ji galvoja, kad Narnija yra tikra šalis.
+She thinks Narnia is a real country.","Alternative: Ji galvoja, kad Narnija iš tiesų/iš tikrųjų/realiai yra šalis.","Jis tikras kovotojas.
+He is a true fighter.",,,,,,,,,,"Tikroji problema ta, kad mes neturime vandens.
+The real problem is that we don't have water.",,,,,,,,,,,,,,,
+,Alice,Lithuanian,lit,Indo-European,Danguole Kotryna Kapkan,yes,teisingas,teisingas,correct,,,,,,,"Ar tai/čia teisingas atsakymas?
+Is this the right answer?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Alice,Lithuanian,lit,Indo-European,Danguole Kotryna Kapkan,no,labai,labai,very,,,,,,,,,,,,,,,"Ji labai graži moteris.
+She is a very beautiful woman. 
+",,"Aš labai džiaugiuosi, kad jis atėjo.
+I am very happy that he came.",,,,,,,,,,,,,,,,,,,,,
+,Alice,Lithuanian,lit,Indo-European,Danguole Kotryna Kapkan,no,"realybė, realiai",realybė,reality,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Alice,Lithuanian,lit,Indo-European,Danguole Kotryna Kapkan,yes,"tiesa, iš tiesų",iš tiesų,really,,,,,,,,,,,,,,,"Ji iš tiesų graži moteris.
+She is a very beautiful woman. 
+",,"Aš iš tiesų džiaugiuosi, kad jis atėjo.
+I am very happy that he came.",,"Aš iš tiesų rašau knygą.
+I am really writing a book.",,"Aš iš tiesų jau noriu eiti.
+I really want to go.",,,,,,"Taip/aha/jo/nu, iš tiesų.
+[The weather is great today, right?] Yes, it is.",,,,,,,,,,,
+,Alice,Lithuanian,lit,Indo-European,Danguole Kotryna Kapkan,no,"tikras, iš tikrųjų, tikrai",iš tikrųjų,"very, really",,,,,,,,,,,,,,,"Ji iš tikrųjų graži moteris. 
+She is a very beautiful woman. 
+",,"Aš iš tikrųjų džiaugiuosi, kad jis atėjo.
+I am very happy that he came.",,"Aš iš tikrųjų rašau knygą.
+I am really writing a book.",,"Aš iš tikrųjų jau noriu eiti.
+I really want to go.",,,,,,"Taip/aha/jo/nu, iš tikrųjų.
+[The weather is great today, right?] Yes, it is.",,,,,,,,,,,
+,Alice,Lithuanian,lit,Indo-European,Danguole Kotryna Kapkan,no,"tikras, iš tikrųjų, tikrai",tikrai,really,,,,,,,,,,,,,,,"Ji tikrai graži moteris. 
+She is a very beautiful woman. 
+",,"Aš tikrai džiaugiuosi, kad jis atėjo.
+I am very happy that he came.",,"Aš tikrai rašau knygą.
+I am really writing a book.",,"Aš tikrai jau noriu eiti.
+I really want to go.",,,,,,"Taip/aha/jo/nu, tikrai.
+[The weather is great today, right?] Yes, it is.",,,,,,,,,,,
+,Alice,Lithuanian,lit,Indo-European,Danguole Kotryna Kapkan,no,"realybė, realiai",realiai,for real,,,,,,,,,,,,,,,"Ji realiai graži moteris. 
+She is a very beautiful woman. ",,"Aš realiai džiaugiuosi, kad jis atėjo.
+I am very happy that he came.",,"Aš realiai rašau knygą.
+I am really writing a book.",,"Aš realiai jau noriu eiti.
+I really want to go.",,,,,,"Taip/aha/jo/nu, realiai.
+[The weather is great today, right?] Yes, it is.",,,,,,,,,,,
+,Alice,Lithuanian,lit,Indo-European,Danguole Kotryna Kapkan,no,pagrindinė,pagrindinė,"main, central",,,,,,,,,,,,,,,,,,,,,,,"Pagrindinė problema ta, kad mes neturime vandens.
+The real problem is that we don't have water.",,,,,,,,,,,,,,,
+,Alice,Lithuanian,lit,Indo-European,Danguole Kotryna Kapkan,no,esminė,esminė,essential,,,,,,,,,,,,,,,,,,,,,,,"Esminė problema ta, kad mes neturime vandens.
+The real problem is that we don't have water.",,,,,,,,,,,,,,,
+,Alice,Lithuanian,lit,Indo-European,Danguole Kotryna Kapkan,no,ar ne,ar ne,right?,,,,,,,,,,,,,,,,,,,,,,,,,"Šiandien puikus oras, ar ne/ane?
+The weather is great today, right?",informal,,,,,,,,,,,,
+,Alice,Lithuanian,lit,Indo-European,Danguole Kotryna Kapkan,no,rimtai,rimtai,seriously,,,,,,,,,,,,,,,,,,,,,,,,,,,"Taip/aha/jo/nu, rimtai.
+[The weather is great today, right?] Yes, it is.",,,,,,,,,,,
+,Alice,Georgian,kat,Kartvelian,Mikheil Kakabadze,yes,"მართალი, სიმართლე
+","მართალი
+martali",true,"მართალი არის. 
+It’s the truth.",,,,"მართალ ამბავს გეუბნები.
+I'm telling you a true story.","Alternatives: მართალი ამბავი არის. [It is a true story]. სიმართლეს გეუბნები. [I’m telling you the truth]
+მართალს გეუბნები. [I’m telling you the truth]
+არ გატყუებ. [I’m not lying]",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"მართალი რომ გითხრა, ეს იდეა არ მომწონს.
+Frankly speaking (to tell the truth), I don’t like this idea.",
+,Alice,Georgian,kat,Kartvelian,Mikheil Kakabadze,yes,"მართალი, სიმართლე
+","სიმართლე
+simartle",truth,"სიმართლე არის.
+It’s the truth.",,"ყოველთვის სიმართლეს ამბობს.
+He always tells the truth.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"სიმართლე რომ გითხრა, ეს იდეა არ მომწონს.
+Frankly speaking (to tell the truth), I don’t like this idea.",
+,Alice,Georgian,kat,Kartvelian,Mikheil Kakabadze,no,"სწორი
+sts'ori","სწორი
+sts'ori","right, correct",,,,,,,"ეს  სწორი  პასუხი  არის?
+Is this the right answer?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Alice,Georgian,kat,Kartvelian,Mikheil Kakabadze,no,"ნაღდი
+naghdi","ნაღდი
+naghdi","genuine, authentic",,,,,,,,,"ეს ნაღდი დოკუმენტები  არის?
+Are these documents real?",,"იმას ნარნია ნაღდი ქვეყანა ჰგონია.
+She thinks Narnia is a real country.",,"ის ნაღდი  მოჩხუბარი არის
+He is a true fighter.",,,,,,,,,,,,,,,,,,,,,,,,,
+,Alice,Georgian,kat,Kartvelian,Mikheil Kakabadze,no,"ნამდვილი, ნამდვილად","ნამდვილი
+namdvili",real,,,,,,,,,,,"იმას ნარნია ნამდვილი ქვეყანა ჰგონია.
+She thinks Narnia is a real country.",,,,,,,,,,,,"ნამდვილი პრობლემა იმაში არის რომ წყალი არა გვაქვს
+The real problem is that we don’t have water.",Alternative: მთავარი 	პრობლემა იმაში 		არის რომ 	წყალი არა გვაქვს 'The main problem is that we don't have water',,,,,,,,,,,,,,
+,Alice,Georgian,kat,Kartvelian,Mikheil Kakabadze,no,"ნამდვილი, ნამდვილად","ნამდვილად
+namdvilad","definitely, really",,,,,,,,,,,,,,,,,,,,,,,,,,,,,"ის კარგი ადამიანი არის, ოღონდ ნამდვილად ბევრს ტრაბახობს
+He is a good person, although/admittedly he brags a lot.",,,,,,,,,
+,Alice,Georgian,kat,Kartvelian,Mikheil Kakabadze,no,"ძალიან
+dzalian","ძალიან
+dzalian",very,,,,,,,,,,,,,,,"ის ძალიან ლამაზი ქალი არის
+She is a very beautiful woman.",Alternative: ის 	ნამდვილად ლამაზი 	ქალი არის 'She is definitely a beautiful woman',"ძალიან მიხარია რომ მოვიდა
+I am very happy that he came.",,,,,,,,,,,,,,,,,,,,,
+,Alice,Georgian,kat,Kartvelian,Mikheil Kakabadze,yes,"მართლა, მართლაც","მართლა
+martla","truly, really",,,,,,,,,,,,,,,,,"მართლა მიხარია რომ მოვიდა
+I am very happy that he came.",,,,"მართლა  წასვლა  მინდა
+I really want to go.",,,,,,,,,,,,,,,,,
+,Alice,Georgian,kat,Kartvelian,Mikheil Kakabadze,yes,"მართლა, მართლაც","მართლაც
+martlats",indeed,,,,,,,,,,,,,,,,,,,"მართლაც წიგნს ვწერ.
+I am really writing a book. ",(in the context of the question “is it true that you are writing a book?”),,,,,,,"მართლაც მასე არის.
+[The weather is great today, right?] Yes, indeed it is.",,,,"მართლაც ახალგაზრდა არის, მაგრამ გამოცდილი ექიმი არის.
+Although he is young, he is a skilled doctor.","Alternative: თუმცაღა ახალგაზრდა არის, გამოცდილი ექიმი არის.",,,,,,
+,Alice,Georgian,kat,Kartvelian,Mikheil Kakabadze,no,"არა
+ara","არა
+ara",no,,,,,,,,,,,,,,,,,,,,,,,,,"დღეს ძალიანკარგი ამინდი არის, არა?
+The weather is great today, right?",,,,,,,,,,,,,
+,Alice,Georgian,kat,Kartvelian,Mikheil Kakabadze,no,"ოღონდ
+oghond","ოღონდ
+oghond",but,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"კარგ, ოღონდ ძვირ, რესტორანში ვიყავით გუშინ.
+We were at a good, although expensive, restaurant yesterday.",,"ავტობუსები დადიან, ოღონდ იშვიათად.
+The buses run, although rarely.","Alternative: ავტობუსები დადიან, თუმცაღა იშვიათად ",,
+,Alice,Armenian,hye,Indo-European,Ala Aghasyan,yes,"ճշմարտություն, ճշմարիտ","ճշմարտություն
+čšmartutʻyun",truth,"Սա ճշմարտություն է: 
+It's true.",,"Նա միշտ ճշմարտություն է ասում:
+He always tells the truth.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Alice,Armenian,hye,Indo-European,Ala Aghasyan,yes,"ճշմարտություն, ճշմարիտ","ճշմարիտ
+čšmarit","true, truly",,,,,"Սա ճշմարիտ պատմություն է:
+It's a true story.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Alice,Armenian,hye,Indo-European,Ala Aghasyan,no,"ճիշտ
+čišt","ճիշտ
+čišt",correct,,,,,,,"Սա ճիշտ պատասխան է:
+Is this the right answer?",,,,,,,,,,,,,,,,,,"Նա  ավ մարդ է, ճի՞շտ է:
+He is a good person, right?",,"Այո, ճիշտ է:
+[The weather is great today, right?] Yes, it is.",,,,,,,,,,"Ճիշտն ասած, ինձ այս գաղափարը դուր չի գալիս:
+To tell the truth, I don’t like this idea.",
+,Alice,Armenian,hye,Indo-European,Ala Aghasyan,no,"իրական
+irakan","իրական
+irakan","real, authentic",,,,,,,,,"Այս փաստաթղթերը իրական են:
+Are these documents real?",,"Նա կարծում է, որ Նարնիան իրական երկիր է:
+She thinks Narnia is a real country.",,"Նա իրական մարտիկ է:
+He is a true fighter.",,,,,,,,,,"Իրական խնդիրն այն է, որ մենք ջուր չունենք:
+The real problem is that we don’t have water.",,,,,,,,,,,,,,,
+,Alice,Armenian,hye,Indo-European,Ala Aghasyan,no,"շատ
+šat","շատ
+šat",very,,,,,,,,,,,,,,,"Նա շատ գեղեցիկ կին է:
+She is a very beautiful woman.",,"Ես շատ ուրախ եմ, որ նա եկավ:
+I am very happy that he came.",,,,"Ես շատ եմ ուզում հեռանալ:
+I really want to go.",,,,,,,,,,,,,,,,,
+,Alice,Armenian,hye,Indo-European,Ala Aghasyan,no,"իսկապես
+iskapes","իսկապես
+iskapes",indeed,,,,,,,,,,,,,,,,,,,"Ես իսկապես գիրք եմ գրում:
+I am really writing a book.",,,,,,,,,,,,,,,,,,,
+,Alice,Armenian,hye,Indo-European,Ala Aghasyan,no,"բայց
+baycʻ","բայց
+baycʻ",but,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Նա լավ մարդ է, բայց նա միշտ պարծենում է:
+He is a good person, although/admittedly (but the truth is) he brags a lot.",,,,,,"Ավտոբուսները երթևեկում են, բայց հազվադեպ:
+The buses run, although rarely.",,,
+,Alice,Armenian,hye,Indo-European,Ala Aghasyan,no,"թեև
+tʻeew","թեև
+tʻeew",although,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Թեև նա երիտասարդ է, բայց շատ լավ բժիշկ է:
+Although he is young, he is a good doctor.",,"Երեկ մենք լավ ռեստորանում էինք, թեև թանկ:
+We were at a good, although expensive, restaurant yesterday.",,,,,
+,Alice,Norwegian,nor,Indo-European,Kristoffer Bilet,yes,"sann, sannhet, ikke sant",sann,true,"Det er sant.
+It's the truth.",,,,"Det er en sann historie.
+It's a true story.",,,,,,,,"Han er en sann fighter.
+He is a true fighter.",,,,,,,,,,,,,,,,,,,,,,,,"Når sant skal sies så liker jeg ikke denne idéen.
+To tell the truth, I don’t like this idea.",Alternative: Ærlig talt så liker jeg ikke denne idéen.
+,Alice,Norwegian,nor,Indo-European,Kristoffer Bilet,yes,"sann, sannhet, ikke sant",sannhet,truth,"Det er sannheten.
+It's the truth.",,"Han sier alltid sannheten.
+He always tells the truth.",,,,,,,,,,,,,,,,,,,,,,,,,,"Han er en god person, men sannheten er at han skryter mye.
+He is a good person, although/admittedly (but the truth is) he brags a lot.",,,,,,,,"Om sannheten skal fram så liker jeg ikke denne idéen.
+To tell the truth, I don’t like this idea.",
+,Alice,Norwegian,nor,Indo-European,Kristoffer Bilet,no,"riktig, riktignok",riktig,"right, correct",,,,,,,"Er dette riktig svar?
+Is this the right answer?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Alice,Norwegian,nor,Indo-European,Kristoffer Bilet,no,ekte,ekte,"real, authentic",,,,,,,,,"Er disse dokumentene ekte?
+Are these documents real?",,,,"Han er en ekte fighter.
+He is a true fighter.",,,,,,,,,,,,,,,,,,,,,,,,,
+,Alice,Norwegian,nor,Indo-European,Kristoffer Bilet,no,virkelig,virkelig,real,,,,,,,,,,,"Hun tror Narnia er et virkelig land.
+She thinks Narnia is a real country.",Alternative: Hun tror Narnia er et land på ordentlig.,,,,,"Jeg er virkelig glad for at han kom.
+I am very happy that he came.",,"Jeg skriver virkelig en bok.
+I am really writing a book.",,"Jeg vil virkelig gå.
+I really want to go.",Alternative: Nå må jeg gå. (more common),,,,,,,,,,,,,,,,
+,Alice,Norwegian,nor,Indo-European,Kristoffer Bilet,no,veldig,veldig,very,,,,,,,,,,,,,,,"Hun er en veldig vakker kvinne.
+She is a very beautiful woman.",,"Jeg er veldig glad for at han kom.
+I am very happy that he came.",,,,,,,,,,,,,,,,,,,,,
+,Alice,Norwegian,nor,Indo-European,Kristoffer Bilet,no,störste,störste,biggest,,,,,,,,,,,,,,,,,,,,,,,"Det störste problemet er at vi ikke har vann.
+The biggest problem is that we don't have water.",,,,,,,,,,,,,,,
+,Alice,Norwegian,nor,Indo-European,Kristoffer Bilet,yes,"sann, sannhet, ikke sant",ikke sant?,right?,,,,,,,,,,,,,,,,,,,,,,,,,"Det er fint vær i dag, ikke sant?
+The weather is great today, right?",,,,,,,,,,,,,
+,Alice,Norwegian,nor,Indo-European,Kristoffer Bilet,no,selv om,selv om,although,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Han er en god person selv om han skryter mye.
+He is a good person, although/admittedly (but the truth is) he brags a lot.",,"Selv om han er ung er han en dyktig lege.
+Although he is young, he is a good doctor.",,,,,,,
+,Alice,Norwegian,nor,Indo-European,Kristoffer Bilet,no,til tross,til tross,despite,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Han er en flink lege til tross for hans unge alder.
+He is a good doctor despite his young age.",,,,,,,
+,Alice,Norwegian,nor,Indo-European,Kristoffer Bilet,no,men,men,but,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Vi var på en god, men dyr restaurang i går.
+We were at a good, although expensive, restaurant yesterday.",,"Bussene går, men sjeldent.
+The buses run, although rarely.",,,
+,Alice,Norwegian,nor,Indo-European,Kristoffer Bilet,no,"riktig, riktignok",riktignok,"indeed, admittedly",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Riktignok går bussene, men ikke ofte.
+The buses run, although rarely.",,,
+,Alice,Swedish,swe,Indo-European,Stina Andersson,yes,"sann, sanning",sann,true,"Det är sant.
+It's true.",,,,"Det är en sann historia. 
+It's a true story.",,,,,,,,"Han är en sann kämpe.
+He is a true fighter.",,,,,,,,,,,,,,,,,,,,,,,,,
+,Alice,Swedish,swe,Indo-European,Stina Andersson,yes,"sann, sanning",sanning,truth,,,"Han talar alltid sanning.
+He always tells the truth.",Alternative: Han säger alltid sanningen.,,,,,,,,,,,,,,,,,,,,,,,,,"Han är en bra person, men sanningen är att han skryter rätt mycket.
+He is a good person, but the truth is he brags a lot.
+","Alternative: Han är en bra person, men sanningen att säga så skryter han rätt mycket. ",,,,,,,"Sanningen att säga så tycker jag inte om den här idén.
+To tell the truth, I don’t like this idea.
+","Alternatives: Ärligt talat, så tycker jag inte om den här idén.
+Uppriktigt sagt, så tycker jag inte om den här idén.
+"
+,Alice,Swedish,swe,Indo-European,Stina Andersson,no,rätt,rätt,"right, correct",,,,,,,"Är det här rätt svar?
+Is this the right answer?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Alice,Swedish,swe,Indo-European,Stina Andersson,no,äkta,äkta,"real, authentic",,,,,,,,,"Är de här dokumenten äkta?
+Are these documents real?",,,,"Han är en äkta kämpe.
+He is a true fighter.",,,,,,,,,,,,,,,,,,,,,,,,,
+,Alice,Swedish,swe,Indo-European,Stina Andersson,no,"riktig, på riktigt",riktig,"proper, real",,,,,,,,,,,"Hon tror att Narnia är ett riktigt land.
+She thinks Narnia is a real country.",Alternative: ,,,,,,,,,,,"Det riktiga problemet är att vi inte har vatten.
+The real problem is that we don't have water.",,,,,,,,,,,,,,,
+,Alice,Swedish,swe,Indo-European,Stina Andersson,no,verklig,verklig,"actual, real",,,,,,,,,,,"Hon tror att Narnia är ett verkligt land.
+She thinks Narnia is a real country.",,"Han är en verklig kämpe.
+He is a true fighter.",,"Hon är en verkligt vacker kvinna.
+She is a very beautiful woman.",,"Jag är verkligen glad att han kom.
+I am very happy that he came.",,"Jag skriver verkligen en bok.
+I am really writing a book.",,"Jag vill verkligen gå!
+I really want to go!",,"Det verkliga problemet är att vi inte har vatten.
+The real problem is that we don't have water.",,,,,,,,,,,,,,,
+,Alice,Swedish,swe,Indo-European,Stina Andersson,no,"riktig, på riktigt",på riktigt,for real,,,,,,,,,,,"Hon tror att Narnia finns på riktigt.
+She thinks Narnia is a real country.",,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Alice,Swedish,swe,Indo-European,Stina Andersson,no,väldigt,väldigt,very,,,,,,,,,,,,,,,"Hon är en väldigt vacker kvinna.
+She is a very beautiful woman.",,"Jag är väldigt glad att han kom.
+I am very happy that he came.",,,,,,,,,,,,,,,,,,,,,
+,Alice,Swedish,swe,Indo-European,Stina Andersson,no,egentlig,egentlig,"actual, real",,,,,,,,,,,,,,,,,,,,,,,"Det egentliga problemet är att vi inte har vatten.
+The real problem is that we don't have water.",,,,,,,,,,,,,,,
+,Alice,Swedish,swe,Indo-European,Stina Andersson,no,eller hur,eller hur,right?,,,,,,,,,,,,,,,,,,,,,,,,,"Det är fantastiskt väder idag, eller hur?
+The weather is great today, right?",,,,,,,,,,,,,
+,Alice,Swedish,swe,Indo-European,Stina Andersson,no,men,men,but,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Han är en bra person, men han skryter faktiskt rätt mycket.
+He is a good person, although/admittedly (but the truth is) he brags a lot.",,,,,,,,,
+,Alice,Swedish,swe,Indo-European,Stina Andersson,no,fast,fast,although,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Han är en bra person, fast han skryter rätt mycket.
+He is a good person, although/admittedly (but the truth is) he brags a lot.",,,,,,,,,
+,Alice,Swedish,swe,Indo-European,Stina Andersson,no,trots,trots,despite,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Trots att han är ung så är han en skicklig doktor.
+Although he is young, he is a skilled doctor. ",,,,,,,
+,Alice,Swedish,swe,Indo-European,Stina Andersson,no,visserligen,visserligen,admittedly,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Vi var på en bra, men visserligen dyr, restaurang igår.
+We were at a good, although expensive, restaurant yesterday.",Alternative: Vi var på en bra men dyr restaurang igår.,"Bussarna går visserligen, men sällan. 
+The buses run, although rarely.",,,
+,Alice,German,deu,Indo-European,Nina Knobloch,yes,"wahrheit, wahr",wahrheit,truth,"Das ist die Wahrheit.
+It's the truth.",,"Er erzählt immer die Wahrheit.
+He always tells the truth.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Um die Wahrheit zu sagen, mag ich diese Idee nicht.
+To tell the truth, I don’t like this idea.",
+,Alice,German,deu,Indo-European,Nina Knobloch,yes,"wahrheit, wahr",wahr,true,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Alice,German,deu,Indo-European,Nina Knobloch,no,stimmt,stimmt,correct,,,,,,,,,,,,,,,,,,,,,,,,,,,"Stimmt.
+[The weather is great today, right?] Correct.",,,,,,,,,,,
+,Alice,German,deu,Indo-European,Nina Knobloch,no,richtig,richtig,"right, correct",,,,,,,"Ist das die richtige antwort.
+Is this the right answer?",,,,"Sie glaubt, dass Narnia ein richtiges Land ist.
+She thinks Narnia is a real country.",,"Er ist ein richtiger Kämpfer.
+He is a true fighter.",,"Sie ist eine richtig schöne Frau.
+She is a very beautiful woman.","“sehr” felt most natural, but “richtig” is definitely also a valid option","Ich bin richtig froh dass er gekommen ist.
+I am very happy that he came.","“sehr” felt most natural, but “richtig” is definitely also a valid option",,,,,"Das richtige Problem ist dass wir kein Wasser haben.
+The real problem is that we don't have water.",,,,,,,,,,,,,,,
+,Alice,German,deu,Indo-European,Nina Knobloch,no,echt,echt,"real, authentic",,,,,,,,,"Sind diese Dokumente echt?
+Are these documents real?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Alice,German,deu,Indo-European,Nina Knobloch,no,sehr,sehr,very,,,,,,,,,,,,,,,"Sie ist eine sehr schöne Frau.
+She is a very beautiful woman.",,"Ich bin sehr froh dass er gekommen ist.
+I am very happy that he came.",,,,,,,,,,,,,,,,,,,,,
+,Alice,German,deu,Indo-European,Nina Knobloch,no,wirklich,wirklich,"really, very",,,,,,,,,,,,,,,,,,,"Ich schreibe wirklich ein Buch.
+I am really writing a book.",,"Ich will wirklich gehen.
+I really want to go.",,"Das wirkliche Problem ist dass wir kein Wasser haben.
+The real problem is that we don't have water.",,,,,,,,,,,,,,,
+,Alice,German,deu,Indo-European,Nina Knobloch,no,oder,oder,right?,,,,,,,,,,,,,,,,,,,,,,,,,"Heute ist Sonntag, oder?
+Today is Sunday, right?",,,,,,,,,,,,,
+,Alice,German,deu,Indo-European,Nina Knobloch,no,aber,aber,but,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Er ist ein guter Mensch, aber er ist immer spät.
+He is a good person, although/admittedly he is always late ",more marked: aber in Wahrheit ist dass er immer spät ist.,,,,,,,,
+,Alice,German,deu,Indo-European,Nina Knobloch,no,obwohl,obwohl,although,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Obwohl er jung ist, ist er ein guter Arzt.
+Although he is young, he is a skilled doctor. ",,,,,,,
+,Alice,German,deu,Indo-European,Nina Knobloch,no,ehrlich,ehrlich,honest,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Um ehrlich zu sein, mag ich diese Idee nicht.
+Frankly speaking, I don’t like this idea.",
+,Alice,Turkish,tur,Turkic,Hatice Zora,no,"gerçeklik, gerçekten, gerçek",gerçeklik,"truth, reality",,,"Her zaman gerçekleri söyler.
+He always tells the truth.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Alice,Turkish,tur,Turkic,Hatice Zora,no,"gerçeklik, gerçekten, gerçek",gerçekten,really,,,,,,,,,,,,,,,"(O) gerçekten güzel bir kadın.
+She is a very beautiful woman.",,"(O) geldiği için gerçekten mutluyum.
+I am very happy that he came.",,"Gerçekten bir kitap yazıyorum.
+I am really writing a book.",,"Gerçekten gitmek istiyorum.
+I really want to go.",,,,,,"Evet, gerçekten.
+[The weather is great today, right?] Yes, indeed.",,,,,,,,,,,
+,Alice,Turkish,tur,Turkic,Hatice Zora,no,"gerçeklik, gerçekten, gerçek",gerçek,"true, real",,,,,,,,,"Bu belgeler gerçek mi?
+Are these documents real?",,,,"(O) gerçek bir savaşçı.
+He is a true fighter.",,,,,,,,,,,,,,,,,,,,,,,,,
+,Alice,Turkish,tur,Turkic,Hatice Zora,yes,,doğru,"true, correct","Doğru.
+It's true.",,"Her zaman doğruları söyler.
+He always tells the truth.",,"(Bu) doğru bir hikaye.
+It’s a correct/true story",,"Bu doğru cevap mı?
+Is this the right answer?",,,,,,,,,,,,,,,,,,,,,,,,"Her zaman geç kaldığı doğru, ama iyi bir insan.
+It is true that he is always late, but he is a good person",,,,,,,
+,Alice,Turkish,tur,Turkic,Hatice Zora,yes,"hakikat, hakikaten, hakiki",hakikat,truth,,,"Her zaman hakikatleri söyler.
+He always tells the truth.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Alice,Turkish,tur,Turkic,Hatice Zora,yes,"hakikat, hakikaten, hakiki",hakikaten,truly,,,,,,,,,,,,,,,"(O) hakikaten güzel bir kadın.
+She is a very beautiful woman.",,"(O) geldiği için hakikaten mutluyum.
+I am very happy that he came.",,,,,,,,,,,,,,,,,,,,,
+,Alice,Turkish,tur,Turkic,Hatice Zora,yes,"hakikat, hakikaten, hakiki",hakiki,true,,,,,,,,,,,,,"(O) hakiki bir savaşçı.
+He is a true fighter.",,,,,,,,,,,,,,,,,,,,,,,,,
+,Alice,Turkish,tur,Turkic,Hatice Zora,no,asıl,asıl,real,,,,,,,,,,,,,,,,,,,,,,,"Asıl sorun suyumuzun olmamasi.
+The real problem is that we don't have water.",,,,,,,,,,,,,,,
+,Alice,Turkish,tur,Turkic,Hatice Zora,no,rağmen,rağmen,despite,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Her zaman geç kalmasına rağmen, iyi bir insan.
+He is a good person, although he is always late.",,,,,,,,,
+,Alice,Hungarian,hun,Uralic,Beáta Megyesi,yes,"igaz, igazság, igazi, igazán",igaz,"truth, true","Igaz.
+It's the truth.",,"(Ö) mindig igazat mond.
+He always tells the truth.",,"Ez egy igaz történet.
+It's a true story.",,,,,,,,,,,,,,,,,,,,"Ma vasárnap van, igaz?
+Today is Sunday, right?","igaz is slightly marked, not the usual way of expressing tag questions",,,,,,,,,,,,
+,Alice,Hungarian,hun,Uralic,Beáta Megyesi,yes,"igaz, igazság, igazi, igazán",igazság,truth,"Ez az igazság.
+It's the truth.",,,,,,,,,,,,,,,,,,,,,,,,,,,,"Jó ember, de az igazság az, hogy mindig késik.
+He is a good person, although he is always late.",,,,,,,,,
+,Alice,Hungarian,hun,Uralic,Beáta Megyesi,yes,"igaz, igazság, igazi, igazán",igazi,true,,,,,,,,,"Ezek (az) igazi dokumentumok?
+Are these documents real?",,"Azt hiszi hogy Narnia igazi ország.
+She thinks Narnia is a real country.",,"Egy igazi harcos.
+He is a true fighter.",,"Egy igazi szép nő.
+She is a very beautiful woman.",,,,,,,,"Az igazi probléma hogy nincs vizünk.
+The realy problem is that we don't have water.",,,,,,,,,,,,,,,
+,Alice,Hungarian,hun,Uralic,Beáta Megyesi,yes,"igaz, igazság, igazi, igazán",igazán,really,,,,,,,,,,,,,,,,,"Igazán örülök hogy jött.
+I'm very happy that he came.",,,,"Igazán mennem kell.
+I really want to go.",,,,,,,,,,,,,,,,,
+,Alice,Hungarian,hun,Uralic,Beáta Megyesi,no,valóságos,valóságos,"real, actual",,,,,"Ez egy valóságos történet.
+It's a true story.",,,,,,"Azt hiszi hogy Narnia valóságos.
+She thinks Narnia is a realy country (that Narnia exists).",Alternatives: Azt hiszi hogy Narnia létező	 	ország. Azt hiszi		hogy Narnia		létezik. ,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Alice,Hungarian,hun,Uralic,Beáta Megyesi,no,jó,jó,"good, right",,,,,,,"Ez (a) jó válasz?
+Is this the right answer?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Alice,Hungarian,hun,Uralic,Beáta Megyesi,no,nagyon,nagyon,very,,,,,,,,,,,,,,,"Egy nagyon szép nő.
+She is a very beautiful woman.",,"Nagyonörülök hogy jött.
+I'm very happy that he came.",,,,,,,,,,,,,,,,,,,,,
+,Alice,Hungarian,hun,Uralic,Beáta Megyesi,no,ugye,ugye,right?,,,,,,,,,,,,,,,,,,,,,,,,,"Ma vasárnap van, ugye?
+Today is Sunday, right?",,,,,,,,,,,,,
+,Alice,Hungarian,hun,Uralic,Beáta Megyesi,no,habár,habár,although,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Habár jó ember, mindig késik.
+He is a good person, although he is always late.",,"Habár fiatal, nagyon jó orvos.
+Although he is young, he is a skilled doctor.",,,,,,,
