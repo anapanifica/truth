@@ -70,7 +70,7 @@ map.feature(languages = lang.iso(df$iso),
             features = df$family,
             label = df$language_name,
             tile = "Esri.WorldPhysical",
-            color = "darkgreen",
+            color = c("#e41a1c", "#377eb8", "#4daf4a", "#984ea3"),
             width = 6
             )
 ```
