@@ -91,6 +91,18 @@ df_gen_iso <- merge (df_per_lng, iso_codes, by = "language_name")
 ```
 
 
+
+
+```{r, echo=FALSE, include=FALSE}
+#for neighbbor-net
+df %>%
+  group_by(language_name) %>%
+  summarize(across(right:subj, ~ ifelse(("+" %in% .x), "1", "0"))) -> df
+write.csv(df, "df.csv")
+```
+
+
+
 ### Intensification
 
 ```{r, echo=FALSE, out.width = '100%'}
@@ -163,4 +175,11 @@ map.feature(languages = lang.iso(df_gen_iso$iso),
             title = "subj"
             )
 ```
+
+
+## Neighbor-net
+
+![](neighbor-net.png){#id .class width=80%}
+
+
 
