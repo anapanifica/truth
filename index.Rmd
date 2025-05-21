@@ -105,7 +105,7 @@ datatable(
 If you use this database in your research, please cite as follows:
 
 ```{}
-Bandarenko, Alice, Anastasia Panova & Anna Sjöberg. 2024. Extended functions of 'truth'-words. A typological database. Stockholm: Stockholm University. Available online at https://anapanifica.github.io/truth/.
+Bondarenko, Alice, Anastasia Panova & Anna Sjöberg. 2024. Extended functions of 'truth'-words. A typological database. Stockholm: Stockholm University. Available online at https://anapanifica.github.io/truth/.
 ```
 
 
