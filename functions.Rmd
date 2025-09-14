@@ -14,7 +14,7 @@ library(lingtypology)
 df <- read.csv("data.csv", na.strings=c("","NA"))
 df %>%
   filter(df$truth_word == "yes") %>%
-  select(-"id_number") %>%
+  select(-id_number, -really_pred_excluded) %>%
   select(-contains("_comment"))-> df
 
 #renumerate indexes after filtering for truth-words (otherwise the loop below doesn't work)
@@ -24,7 +24,7 @@ df <- tibble::rowid_to_column(df, "id_number")
 
 
 ```{r, echo=FALSE, results='asis'}
-for (c in 11:ncol(df)) { 
+for (c in 13:ncol(df)) { 
   
   cat('\n\n## ', colnames(df)[c], '\n',
       sep="")

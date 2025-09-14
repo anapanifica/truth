@@ -1,0 +1,15 @@
+replace this:
+
+{"interactive":false,"permanent":true,"direction":"right","opacity":1,"offset":[5,0],"textsize":"10px","textOnly":true,"style":{"font-size":"10px","font-family":"sans-serif"},"className":"","sticky":true},null]},
+
+
+with this:
+
+
+
+{"interactive":true,"permanent":true,"direction":"right","opacity":0.8,"offset":[5,0],"textsize":"9px","textOnly":false,"style": {
+  "font-size": "10px",
+  "font-family": "sans-serif",
+  "background-color": "rgba(255,255,255,0.5)",
+  "padding": "0px"
+},"className":"","sticky":true},null]},
