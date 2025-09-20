@@ -54,11 +54,13 @@ datatable(
 
 ```{r, include=FALSE, echo=FALSE}
 df %>%
-  mutate(int = ifelse(int_adj == "+" | int_npred == "+" | int_pred == "+",
+  mutate(int = ifelse(int_attr == "+" | int_nonvpred == "+" | int_pred == "+",
                         "+", "")) %>%
-  mutate(conc = ifelse(conc_pred1 == "+" | conc_pred2 == "+" | conc_adj == "+" | conc_adv == "+",
+  mutate(contrast = ifelse(contrast_clausal1 == "+" | contrast_clausal2 == "+" | contrast_attr == "+" | contrast_adv == "+",
                         "+", "")) %>%
-  select("language_name", "word", "translation", "int", "tag", "affirm", "conc", "subj") -> df_gen
+  mutate(contrast_attr_adv = ifelse(contrast_attr == "+" | contrast_adv == "+",
+                        "+", "")) %>%
+  select("language_name", "word", "translation", "int", "tag", "affirm", "contrast", "contrast_attr_adv", "subjectification") -> df_gen
 df_gen
 ```
 
@@ -82,7 +84,7 @@ datatable(
 ```{r, include=FALSE, echo=FALSE}
 df %>%
   group_by(language_name) %>%
-  summarize(across(truth_pred:subj, ~ ifelse(("+" %in% .x), "attested", "not attested"))) -> df_per_lng
+  summarize(across(truth:subjectification, ~ ifelse(("+" %in% .x), "attested", "not attested"))) -> df_per_lng
 
 #restore iso-codes
 df_orig %>%
@@ -92,40 +94,40 @@ df_iso <- merge (df_per_lng, iso_codes, by = "language_name")
 ```
 
 
-#### right
+#### correct
 
 ```{r, echo=FALSE, out.width = '100%'}
   
 map.feature(languages = lang.iso(df_iso$iso),
-            features = df_iso$right,
+            features = df_iso$correct,
             label = df_iso$iso, label.hide = FALSE, label.fsize = 10,
             tile = "Esri.WorldPhysical",
             color = c("#f46d43", "#404040"),
             width = 6,
-            title = "\'right\'"
+            title = "\'correct\'"
             )
 ```
 
-#### genuine
+#### real_not_fake
 
 ```{r, echo=FALSE, out.width = '100%'}
   
 map.feature(languages = lang.iso(df_iso$iso),
-            features = df_iso$genuine,
+            features = df_iso$real_not_fake,
             label = df_iso$iso, label.hide = FALSE, label.fsize = 10,
             tile = "Esri.WorldPhysical",
             color = c("#f46d43", "#404040"),
             width = 6,
-            title = "\'real (genuine, not fake)\'"
+            title = "\'real (not fake)\'"
             )
 ```
 
-#### real
+#### real_not_imagined
 
 ```{r, echo=FALSE, out.width = '100%'}
   
 map.feature(languages = lang.iso(df_iso$iso),
-            features = df_iso$real,
+            features = df_iso$real_not_imagined,
             label = df_iso$iso, label.hide = FALSE, label.fsize = 10,
             tile = "Esri.WorldPhysical",
             color = c("#f46d43", "#404040"),
@@ -135,27 +137,27 @@ map.feature(languages = lang.iso(df_iso$iso),
 ```
 
 
-#### int_adj
+#### int_attr
 
 ```{r, echo=FALSE, out.width = '100%'}
   
 map.feature(languages = lang.iso(df_iso$iso),
-            features = df_iso$int_adj,
+            features = df_iso$int_attr,
             label = df_iso$iso, label.hide = FALSE, label.fsize = 10,
             tile = "Esri.WorldPhysical",
             color = c("#f46d43", "#404040"),
             width = 6,
-            title = "intensification (of adjective)"
+            title = "intensification (of attribute)"
             )
 ```
 
 
-#### int_npred
+#### int_nonvpred
 
 ```{r, echo=FALSE, out.width = '100%'}
   
 map.feature(languages = lang.iso(df_iso$iso),
-            features = df_iso$int_npred,
+            features = df_iso$int_nonvpred,
             label = df_iso$iso, label.hide = FALSE, label.fsize = 10,
             tile = "Esri.WorldPhysical",
             color = c("#f46d43", "#404040"),
@@ -179,12 +181,12 @@ map.feature(languages = lang.iso(df_iso$iso),
 ```
 
 
-#### CL
+#### counter-loosener
 
 ```{r, echo=FALSE, out.width = '100%'}
   
 map.feature(languages = lang.iso(df_iso$iso),
-            features = df_iso$CL,
+            features = df_iso$counter_loosener,
             label = df_iso$iso, label.hide = FALSE, label.fsize = 10,
             tile = "Esri.WorldPhysical",
             color = c("#f46d43", "#404040"),
@@ -193,12 +195,12 @@ map.feature(languages = lang.iso(df_iso$iso),
             )
 ```
 
-#### select
+#### selective
 
 ```{r, echo=FALSE, out.width = '100%'}
   
 map.feature(languages = lang.iso(df_iso$iso),
-            features = df_iso$select,
+            features = df_iso$selective,
             label = df_iso$iso, label.hide = FALSE, label.fsize = 10,
             tile = "Esri.WorldPhysical",
             color = c("#f46d43", "#404040"),
@@ -235,68 +237,72 @@ map.feature(languages = lang.iso(df_iso$iso),
             )
 ```
 
-#### conc_pred1
+#### contrast_clausal1
 
 ```{r, echo=FALSE, out.width = '100%'}
   
 map.feature(languages = lang.iso(df_iso$iso),
-            features = df_iso$conc_pred1,
+            features = df_iso$contrast_clausal1,
             label = df_iso$iso, label.hide = FALSE, label.fsize = 10,
             tile = "Esri.WorldPhysical",
             color = c("#f46d43", "#404040"),
             width = 6,
-            title = "concessive (Q, but the truth is that P)"
+            title = "contrast (It is true that P, but Q)"
             )
 ```
 
-#### conc_pred2
+#### contrast_clausal2
 
 ```{r, echo=FALSE, out.width = '100%'}
   
 map.feature(languages = lang.iso(df_iso$iso),
-            features = df_iso$conc_pred2,
+            features = df_iso$contrast_clausal2,
             label = df_iso$iso, label.hide = FALSE, label.fsize = 10,
             tile = "Esri.WorldPhysical",
             color = c("#f46d43", "#404040"),
             width = 6,
-            title = "concessive (It is true that P, but Q)"
+            title = "contrast (Q, but the truth is that P)"
             )
 ```
 
-#### conc_adj
+
+
+#### contrast_attr
 
 ```{r, echo=FALSE, out.width = '100%'}
   
 map.feature(languages = lang.iso(df_iso$iso),
-            features = df_iso$conc_adj,
+            features = df_iso$contrast_attr,
             label = df_iso$iso, label.hide = FALSE, label.fsize = 10,
             tile = "Esri.WorldPhysical",
             color = c("#f46d43", "#404040"),
             width = 6,
-            title = "concessive (+ adjective)"
+            title = "contrast (+ attribute)"
             )
 ```
 
-#### conc_adv
+#### contrast_adv
 
 ```{r, echo=FALSE, out.width = '100%'}
   
 map.feature(languages = lang.iso(df_iso$iso),
-            features = df_iso$conc_adv,
+            features = df_iso$contrast_adv,
             label = df_iso$iso, label.hide = FALSE, label.fsize = 10,
             tile = "Esri.WorldPhysical",
             color = c("#f46d43", "#404040"),
             width = 6,
-            title = "concessive (+ adverbial)"
+            title = "contrast (+ adverbial)"
             )
 ```
 
-#### subj
+
+
+#### subjectification
 
 ```{r, echo=FALSE, out.width = '100%'}
   
 map.feature(languages = lang.iso(df_iso$iso),
-            features = df_iso$subj,
+            features = df_iso$subjectification,
             label = df_iso$iso, label.hide = FALSE, label.fsize = 10,
             tile = "Esri.WorldPhysical",
             color = c("#f46d43", "#404040"),
@@ -312,7 +318,7 @@ map.feature(languages = lang.iso(df_iso$iso),
 ```{r, include=FALSE, echo=FALSE}
 df_gen %>%
   group_by(language_name) %>%
-  summarize(across(int:subj, ~ ifelse(("+" %in% .x), "attested", "not attested"))) -> df_per_lng
+  summarize(across(int:subjectification, ~ ifelse(("+" %in% .x), "attested", "not attested"))) -> df_per_lng
 
 #restore iso-codes
 df_orig %>%
@@ -328,7 +334,7 @@ df_gen_iso <- merge (df_per_lng, iso_codes, by = "language_name")
 #for neighbbor-net
 df %>%
   group_by(language_name) %>%
-  summarize(across(right:subj, ~ ifelse(("+" %in% .x), "1", "0"))) -> df
+  summarize(across(correct:subjectification, ~ ifelse(("+" %in% .x), "1", "0"))) -> df
 write.csv(df, "df.csv")
 ```
 
@@ -378,19 +384,35 @@ map.feature(languages = lang.iso(df_gen_iso$iso),
 ```
 
 
-#### Concessive
+#### Contrast
 
 ```{r, echo=FALSE, out.width = '100%'}
   
 map.feature(languages = lang.iso(df_gen_iso$iso),
-            features = df_gen_iso$conc,
+            features = df_gen_iso$contrast,
             label = df_gen_iso$iso, label.hide = FALSE, label.fsize = 10,
             tile = "Esri.WorldPhysical",
             color = c("#f46d43", "#404040"),
             width = 6,
-            title = "Concessive"
+            title = "Contrast"
             )
 ```
+
+
+#### Clause-internal contrast
+
+```{r, echo=FALSE, out.width = '100%'}
+
+map.feature(languages = lang.iso(df_gen_iso$iso),
+            features = df_gen_iso$contrast_attr_adv,
+            label = df_gen_iso$iso, label.hide = FALSE, label.fsize = 10,
+            tile = "Esri.WorldPhysical",
+            color = c("#f46d43", "#404040"),
+            width = 6,
+            title = "clause-internal contrast"
+            )
+```
+
 
 #### Subjectification
 
@@ -398,7 +420,7 @@ map.feature(languages = lang.iso(df_gen_iso$iso),
 ```{r, echo=FALSE, out.width = '100%'}
   
 map.feature(languages = lang.iso(df_gen_iso$iso),
-            features = df_gen_iso$subj,
+            features = df_gen_iso$subjectification,
             label = df_gen_iso$iso, label.hide = FALSE, label.fsize = 10,
             tile = "Esri.WorldPhysical",
             color = c("#f46d43", "#404040"),

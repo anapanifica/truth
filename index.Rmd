@@ -30,24 +30,24 @@ The data were collected using the following questionnaire.
 library(knitr)
 column_description <- tibble::tribble(
   ~tag, ~description, ~"stimulus",
-   "`truth_pred`", "What 'truth'-word is used in the predicative position?", "It’s the truth. [It is not made up, it is how things are]",
-  "`truth_n`",  "What 'truth'-word is used in the argument position?", "He always tells the truth.",
-  "`truth_adj`",  "What 'truth'-word is used in the attributive position?", "It is a true story. [I’m not lying]",
-  "`right`",  "Can any of the 'truth'-words also mean 'right'?", "Is this the right answer? [Or is it the wrong answer?]",
-  "`genuine`",  "Can any of the 'truth'-words also mean 'genuine, original'?", "Are these documents real? [Or are they fakes?]",
-  "`real`",  "Can any of the 'truth'-words also mean 'real'?", "She thinks Narnia is a real country. [It’s actually made up]",
-  "`int_adj`",  "Can any of the 'truth'-words be used as an intensifier of an adjective in the noun phrase?", "She is a very beautiful woman.",
-  "`int_npred`",  "Can any of the 'truth'-words be used as an intensifier of a nominal predicate?", "I’m very happy that he came.",
+  "`truth`",  "What 'truth'-word is used in the argument position?", "He always tells the truth.",
+  "`true`",  "What 'truth'-word is used in the attributive position?", "It is a true story. [I’m not lying]",
+   "`be_true`", "What 'truth'-word is used in the predicative position?", "It’s the truth. [It is not made up, it is how things are]",
+  "`correct`",  "Can any of the 'truth'-words also mean 'right'?", "Is this the right (correct) answer? [Or is it the wrong answer?]",
+  "`real_not_fake`",  "Can any of the 'truth'-words also mean 'genuine, original'?", "Are these documents real? [Or are they fakes?]",
+  "`real_not_imagined`",  "Can any of the 'truth'-words also mean 'real'?", "She thinks Narnia is a real country. [It’s actually made up]",
+  "`int_attr`",  "Can any of the 'truth'-words be used as an intensifier of an adjective in the noun phrase?", "She is a very beautiful woman.",
+  "`int_nonvpred`",  "Can any of the 'truth'-words be used as an intensifier of a nominal predicate?", "I’m very happy that he came.",
   "`int_pred`",  "Can any of the 'truth'-words be used as an intensifier of a verbal predicate?", "I really want to go. [I can’t stand it here.]",
-  "`CL`",  "Does any of the 'truth'-words have the counter-loosener function (in terms of Bardenstein & Ariel 2022)?", "He is a true fighter [He has all the qualities characteristic of a fighter]",
-  "`select`",  "Does any of the 'truth'-words have the selective function (in terms of Beekhuizen et al. 2023)?", "The real problem is that we don’t have water. [That’s what we need to focus on]",
+  "`counter_loosener`",  "Does any of the 'truth'-words have the counter-loosener function (in terms of Bardenstein & Ariel 2022)?", "He is a true fighter [He has all the qualities characteristic of a fighter]",
+  "`selective`",  "Does any of the 'truth'-words have the selective function (in terms of Beekhuizen et al. 2023)?", "The real problem is that we don’t have water. [That’s what we need to focus on]",
   "`tag`",  "Can any of the 'truth'-words be used as a tag-question?", "The weather is great today, right? ",
   "`affirm`",  "Can any of the 'truth'-words be used as an affirmation marker?", "[The weather is great today, right?] Yes, it is.",
-  "`conc_pred1`",  "Is any of the 'truth'-words involved in a concessive marker introducing a finite clause?", "He is a good person, although/admittedly (but the truth is) he brags a lot.",
-  "`conc_pred2`",  "Is any of the 'truth'-words be involved in a concessive marker introducing a finite clause?", "Although he is young, he is a skilled doctor. (He is indeed young, but he is a skilled doctor.)",
-  "`conc_adj`",  "Is any of the 'truth'-words involved in a concessive marker introducing an attributive modifier?", "We were at a good, although expensive, restaurant yesterday.",
-  "`conc_adv`",  "Is any of the 'truth'-words involved in a concessive marker introducing an adverbial modifier?", "The buses run, although rarely.",
-  "`subj`",  "Are any of the 'truth'-words involved in expressions introducing subjective evaluation statements?", "Frankly speaking (to tell the truth), I don’t like this idea."
+  "`contrast_clausal1`",  "Is any of the 'truth'-words be involved in a contrastive ('but', 'although') marker introducing a finite clause?", "Although he is young, he is a skilled doctor. (He is indeed young, but he is a skilled doctor.)",
+  "`contrast_clausal2`",  "Is any of the 'truth'-words involved in a contrastive ('but', 'although') marker introducing a finite clause?", "He is a good person, although/admittedly (but the truth is) he brags a lot.",
+  "`contrast_attr`",  "Is any of the 'truth'-words involved in a contrastive ('but', 'although') marker introducing an attributive modifier?", "We were at a good, although expensive, restaurant yesterday.",
+  "`contrast_adv`",  "Is any of the 'truth'-words involved in a contrastive ('but', 'although') marker introducing an adverbial modifier?", "The buses run, although rarely.",
+  "`subjectification`",  "Are any of the 'truth'-words involved in expressions introducing subjective evaluation statements?", "Frankly speaking (to tell the truth), I don’t like this idea."
   )
 kable(column_description)
 ```
